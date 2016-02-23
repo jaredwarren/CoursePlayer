@@ -1,0 +1,24 @@
+.matching-instructions{
+	padding: 10px;
+	border: 1px solid $base-color;
+}
+
+
+.matching-drag{
+	padding: 10px;
+	border: 1px solid $base-color;
+}
+
+.matching-drop{
+	padding: 10px;
+	border: 1px solid $base-color;
+}
+
+.scoreBox{
+	padding: 10px;
+	border: 1px solid $base-color;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-right: 10px;
+	margin-top: -1px !important;
+}

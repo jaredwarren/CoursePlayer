@@ -1,0 +1,6 @@
+/* LowerToolBar */
+
+.lowerToolBar{
+	@include single-box-shadow($hoff: 0px, $voff: -2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+	z-index: 2;
+}

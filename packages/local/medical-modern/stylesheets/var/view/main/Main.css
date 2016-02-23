@@ -1,0 +1,45 @@
+/*
+Syntax error: Invalid CSS after "aasd": expected "{", was ";fkj;lkj @sdfor..."
+        on line 167 of c:/data/www/sandbox/ExtPlayer/packages/local/medical-modern/sass/var/view/main/Main.scss
+
+Backtrace:
+c:/data/www/sandbox/ExtPlayer/packages/local/medical-modern/sass/var/view/main/Main.scss:167
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1136:in `expected'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1072:in `expected'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1067:in `tok!'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:522:in `block'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:517:in `ruleset'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:541:in `block_child'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:534:in `block_contents'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:70:in `stylesheet'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:27:in `parse'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/engine.rb:342:in `_to_tree'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+c:/Ruby193/bin/compass:23:in `load'
+c:/Ruby193/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"aasd\": expected \"{\", was \";fkj;lkj @sdfor...\"\A         on line 167 of c:/data/www/sandbox/ExtPlayer/packages/local/medical-modern/sass/var/view/main/Main.scss"; }

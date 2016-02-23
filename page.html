@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html manifest="">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <title>Player</title> -->
+  <script type="text/javascript" src="lang/en-US.js"></script>
+  <script type="text/javascript" src="ext/build/ext-all.js"></script>
+  <script type="text/javascript">
+  function onLoad() {
+    Ext.fly('appLoadingIndicator').destroy();
+    Ext.define('Player.Application', {
+      extend: 'Ext.app.Application',
+
+      name: 'Player',
+
+      stores: [
+        // TODO: add global / shared stores here
+      ],
+
+      init: function() {
+        console.log('sss');
+        Ext.create('Player.page.TextPage', {
+          title: 'Hello',
+          width: 200,
+          pText: {
+            '#text': '<p>World!</p>'
+          },
+          renderTo: Ext.getBody()
+        });
+      },
+
+      launch: function() {
+        console.info('Player.Application::launch');
+        // TODO - Launch the application
+      }
+    });
+    Ext.application({
+      name: 'Player',
+      extend: 'Player.Application',
+      launch: function() {
+        console.info('Player.Application::launch2');
+      }
+    });
+
+
+  }
+
+  function getParams(str) {
+    var queryString = str || window.location.search || '';
+    var keyValPairs = [];
+    var params = {};
+    queryString = queryString.replace(/.*?\?/, "");
+
+    if (queryString.length) {
+      keyValPairs = queryString.split('&');
+      for (pairNum in keyValPairs) {
+        var keyParts = keyValPairs[pairNum].split('='),
+          key = keyParts[0],
+          value = keyParts[1];
+        if (!key.length) continue;
+        if (!value) value = true;
+        if (typeof params[key] === 'undefined') {
+          params[key] = value;
+        }
+      }
+    }
+    return params;
+  }
+
+  function loadScript(url, scope, charset, type, successCallback, failureCallback) {
+    var script = document.createElement('script'),
+      successCallback = successCallback || Ext.emptyFn,
+      failureCallback = failureCallback || Ext.emptyFn;
+
+    if (!type) {
+      type = 'text/javascript';
+    }
+    script.type = type;
+    script.src = url;
+    script.onload = successCallback;
+    script.onerror = function(e) {
+      failureCallback.call(scope, e);
+    };
+    script.onreadystatechange = function(e, f, g) {
+      if (this.readyState === 'loaded' || this.readyState === 'complete') {
+        successCallback.call(scope);
+      }
+    };
+
+    if (charset) {
+      script.charset = charset;
+    }
+
+    var documentHead = typeof document != 'undefined' && (document.head || document.getElementsByTagName('head')[0]);
+    documentHead.appendChild(script);
+
+    return script;
+  }
+
+  // Add randomize to array, because I use it alot.
+  function randomizeArray(array) {
+    var me = array,
+      i = me.length,
+      j, temp;
+    if (i == 0) return me;
+    while (--i) {
+      j = Math.floor(Math.random() * (i + 1));
+      temp = me[i];
+      me[i] = me[j];
+      me[j] = temp;
+    }
+    return me;
+  }
+  </script>
+</head>
+
+<body onload="onLoad()">
+  <div id="appLoadingIndicator" style="
+    display: table;
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.247059);
+    ">
+    <div class="Table-Cell" style="display: table-cell; vertical-align: middle;">
+      <div class="Center-Block" style="
+        width: 124px; 
+        height: 89px;
+        border-radius: 10px;
+        margin: 0 auto; 
+        background-color: rgba(255,255,255,.9); 
+        padding: 20px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        ">
+        <div style="
+            width: 16px; 
+            height: 16px;
+            margin-left: 32px;
+            background:url(data:image/gif;base64,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) top left no-repeat; )
+            "></div>
+        <div style="
+                margin: 10px 0 0 4px; 
+                color: black; 
+                font-size: 20px;
+                font-family: helvetica, arial, sans-serif;
+                line-height: 17px;
+            ">Loading...</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+.x-toolbar{
+  padding: 0;
+}
+  .x-layout-accordion-item.x-layout-accordion-item-anim {
+    -webkit-transition : height 300ms ease-in !important;
+}
+
+.x-toolbar-accordion .x-title{
+  color: white;
+}
+.x-toolbar-accordion .x-button{
+  color: white;
+}
+
+.x-accordion-arrow {
+  /* padding            : 0.6em !important; */
+    /*background         : transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAeVJREFUeNqM1E9Ik3Ecx/FtuIHgaMOZMAwzKBMiD4UsiaBDB+kgJUMIcXYQunnpEJ0C/14SvHmpSxcvHjoIg6hdWixZRAcdtMMciGgozMDTFk/v7/qOfnv47Zk/eMGe777fzzP2/J6f33EcX4vVjwcYQq/WjlDAB5RtQ35L4EW8xG2U8MUYlpuMYgB5LOFX07QEGu7gG14j7vrO1Kc90pswvzObRlDAI70OewQ2SO+uzjYFRpHHpNGcxApibUKTOhs1A+fxxtXYiW2UkULAI1RmFxqBkpzDoKXxFmrOv/UR91oEXsdXRORiHO897r7o/F9VvMVVS59kjAd40NdQ9LVeq9jRzx14iixeIGz0/ZQsCYzgwCPwBK9ctR4s4zseak0yIhL4ByGf97ppqcncNvb1Oig1CTzEZY+wYTx31TL6Wj7BD61dqb+a+nbIEwxZ/mjZKlvGQyliFh2uvpBmjDaGPmHMEjitQb/1abfa5DKbkSxzt2cRNJouYQ+buOGxrYI6KxlNp807nOGZXk/oH73R5oGtowtT7tMmgrS+Ruc5GMLam9bZej1g3KmCx6jqAZpC3PKLpDajPTWdqXgdsLLuYg4x3dinWr+AbhxjDZ/Pc2I3lpzK95HQIJ8G53QflmxDfwUYAKNRwbDSoyXQAAAAAElFTkSuQmCC') no-repeat center center !important;*/
+    /* background         : transparent url('../images/arrow_right.png') no-repeat center center !important; */
+
+    &:before{
+      position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    content: "4";
+
+    };
+    
+
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-family: "Pictos";
+    /* For arrow animation */
+    -webkit-transition : -webkit-transform 300ms ease-in !important;
+    -webkit-transform-origin:50% 50%;
+}
+
+.x-accordion-arrow-expanded {
+    -webkit-transform : rotate(90deg) !important;
+    -webkit-transform-origin:50% 50%;
+}
+
+.x-layout-accordion-item{
+  overflow: hidden !important;
+  margin-bottom: 18px;
+}
+
+
+
+.x-layout-accordion-item .x-dock-body{
+  background-color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 1px solid gray;
+  border-right:  1px solid gray;
+  border-left:  1px solid gray;
+
+  min-width: 80% !important;
+
+  padding: 8px;
+}
+.def-toolbar{
+  border-radius: 10px;
+  height: auto;
+  .x-toolbar{
+    height: auto;
+  }
+  .x-body{
+    border: none;
+  }
+  .x-center{
+    position: relative;
+  }
+  .x-title .x-innerhtml{
+    white-space: normal;
+    overflow: visible;
+    text-overflow: initial;
+  }
+  .x-toolbar-inner{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.def-instructions{
+  background-color: #474747;
+  color: white;
+  padding: 6px;
+}
+
+.def-step{
+  background-color: #333333;
+  color: white;
+  padding: 4px;
+}

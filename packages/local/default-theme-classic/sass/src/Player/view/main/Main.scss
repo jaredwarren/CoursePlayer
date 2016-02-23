@@ -1,0 +1,223 @@
+
+
+
+
+
+$font-size: dynamic(14px);
+
+@include extjs-button-small-ui(
+  $ui: 'action'
+);
+
+
+
+
+
+
+
+a{
+  color: inherit;
+  font-family: Verdana;
+  font-size: inherit;
+  text-decoration: inherit;
+}
+
+/* p{
+  margin: 0;
+} */
+
+//@include extjs-button-ui($ui:'action', #9EC8EA, $background-gradient:'bevel');
+
+.page-content{
+	padding:0 0 0 10px;
+}
+
+
+.captionhead{
+	font-weight: bold;
+}
+
+
+.imagecontainer{
+  &.rightimage{
+    margin-left: 14px; 
+    padding-left: 12px;
+    margin-top: 14px; 
+  }
+  &.leftimage{
+    margin-top: 14px; 
+    margin-right: 14px; 
+    padding-right: 12px;
+  }
+}
+
+.x-panel-body-default{
+	background-color: white !important;
+}
+
+.imageicon{
+	width: 24px; 
+	height: 24px; 
+	background: rgba(100, 100, 100, .6);
+	&:before{
+		top: 3px;
+		left: 3px;
+		position: absolute;
+		color: white;
+		font-size: 20px;
+	}
+	cursor: pointer;
+}
+
+/* 
+
+Table of Contents
+
+ */
+
+.restricted-item{
+  color: lightgray;
+  .x-tree-icon{
+    color: lightgray !important;
+  }
+}
+
+.x-grid-cell-inner, .x-grid-hd-inner {
+  white-space: normal; /* changed from nowrap */
+  display: flex;
+  .x-tree-node-text {
+    display: inline-block;
+    flex: 1;
+  }
+}
+
+/* 
+
+Narration
+
+ */
+.narrationpanel{
+  .x-window-body{
+    padding: 6px;
+  }
+}
+
+
+/* 
+
+Question
+
+ */
+@include extjs-button-small-ui(
+  $ui: 'resetBtn'
+);
+@include extjs-button-small-ui(
+  $ui: 'checkAnswerBtn'
+);
+
+.question-container{
+  @include single-box-shadow($hoff: 0px, $voff: 2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+  background-color: white;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  .pageText{
+    margin: 10px 0 0 6px;
+    border-bottom: 1px solid darkgray;
+  }
+
+  .x-input-text{
+    border: 1px solid darkgray;
+  }
+ }
+
+ .emailpopup{
+  .x-window-body{
+    margin: 10px;
+  }
+ }
+
+
+/* DRAG */
+.ddtask-drag .x-autocontainer-innerCt{
+  border: 1px solid darkgray;
+  padding: 6px;
+ }
+
+/* DROP */
+ .ddtask-drop .x-autocontainer-innerCt{
+  border: 1px solid darkgray;
+  padding: 6px;
+ }
+
+ .drag-over{
+  border: 1px solid green !important;
+ }
+
+
+/* DDNUM */
+
+
+
+/* 
+Visual Layout Page
+*/
+
+p{
+  line-height: initial !important;
+}
+
+
+
+
+
+/* Image Mouseover */
+
+.imagemouseover-wrap img{
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+
+.imagemouseover-over{
+  -webkit-transform: scale(2); 
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
+
+
+
+
+
+/* Definitions */
+
+.definitions-review-definition{
+  margin: 10px 10px 0 0;
+  border: 2px solid $base-color;
+}
+
+.definitions-review-terms{
+  margin-top: 10px;
+}
+
+
+.termtext{
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin: 10px 0;
+}
+
+
+/* NOTE */
+.note{
+  border: 1px solid $base-color;
+  border-width: 1px !important;
+}

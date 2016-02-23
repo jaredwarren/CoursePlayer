@@ -1,0 +1,67 @@
+/* Quiz */
+.quiz-intro-heading {
+  color: #666;
+  font: bold 1rem helvetica, arial, sans-serif;
+}
+
+.x-form-inner{
+  background-color: white;
+}
+
+.question-container{
+  @include single-box-shadow($hoff: 0px, $voff: 2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 6px;
+
+  .pageText{
+    margin: 10px 0 6px 6px;
+    border-bottom: 1px solid darkgray;
+  }
+
+  .x-input-text{
+    border: 1px solid darkgray;
+  }
+ }
+
+.x-field{
+  .x-field-input{
+    min-width: initial;
+  }
+  background-color: white;
+}
+
+.x-form-label{
+  background-color: white;
+}
+
+
+.quizresulttitle{
+  color: #666;
+  font: bold 1rem helvetica, arial, sans-serif;
+}
+.results-title{
+  color: #666;
+  font: bold 1rem helvetica, arial, sans-serif; 
+  padding: 6px;
+  &:after{
+    content: ':';
+  }
+}
+
+.hoimage{
+  .imageicon{
+    width: 24px; 
+    height: 24px; 
+    background: rgba(100, 100, 100, .6);
+    position: absolute;
+    &:before{
+      top: 4px;
+      left: 3px;
+      position: absolute;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+/*HelpPanel*/
+
+.helppanel{
+	@include single-box-shadow($hoff: 0px, $voff: 2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+
+	.x-msgbox, .x-panel.x-floating, .x-form.x-floating{
+		border: none !important;
+		background: transparent;
+	}
+}

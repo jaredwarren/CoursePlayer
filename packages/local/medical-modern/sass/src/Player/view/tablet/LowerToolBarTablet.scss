@@ -1,0 +1,32 @@
+.page-number{
+	font-size: 18px !important;
+}
+
+.glossary-btn .x-button-label{
+	color: white !important;
+	font-size: 18px !important;
+}
+.narration-btn .x-button-label{
+	color: white !important;
+	font-size: 18px !important;
+}
+.glossary-btn-phone .x-button-label{
+	color: white !important;
+	font-size: 14px !important;
+}
+.narration-btn-phone .x-button-label{
+	color: white !important;
+	font-size: 14px !important;
+}
+.line-spacer{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAABeCAYAAADrJt7RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAt+wAALfsB/IdK5wAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAABySURBVDiNY/z//z8DFCQwMDAoMDAwLGD4//8/DH/4DwEKjEgqYQxGJgYsYFSQFEEDKP0QWVAASj8YECcNP0EHKH0Bm8oPA+KkIS0ogE0QlpIPDIiThp8gSiDDil940TsgThpeggpQ9kdsghcGxEnECQIANYMk4aFl2loAAAAASUVORK5CYII=);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+
+}
+.x-toolbar-dark{
+	//@include background-image(radial-gradient(center left, ellipse cover, #9ec8ea 0%,#79a2cb 100%));
+	background-color: #79A2CB;
+	padding: 0;
+}
+

@@ -1,0 +1,12 @@
+/* Accordion */
+
+.x-accordion-arrow{
+	padding: 0 !important;
+	.x-button-icon{
+		color: white;
+	}
+}
+
+.x-accordion-arrow-expanded{
+	@include transform( rotate(90deg) );
+}

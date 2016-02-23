@@ -1,0 +1,203 @@
+/* Quiz */
+.quiz-intro-heading {
+  color: #666;
+  font: bold 1rem helvetica, arial, sans-serif;
+}
+
+.x-form-inner{
+  background-color: white;
+}
+
+.question-container{
+  @include single-box-shadow($hoff: 0px, $voff: 2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 6px;
+
+  .pageText{
+    margin: 10px 0 6px 6px;
+    border-bottom: 1px solid darkgray;
+  }
+
+  .x-input-text{
+    border: 1px solid darkgray;
+  }
+ }
+
+.x-field{
+  .x-field-input{
+    min-width: initial;
+  }
+  background-color: white;
+}
+
+.x-form-label{
+  background-color: white;
+}
+
+
+.quizresulttitle{
+  color: #666;
+  font: bold 1rem helvetica, arial, sans-serif;
+}
+.results-title{
+  color: #666;
+  font: bold 1rem helvetica, arial, sans-serif; 
+  padding: 6px;
+  &:after{
+    content: ':';
+  }
+}
+
+.hoimage{
+  .imageicon{
+    width: 24px; 
+    height: 24px; 
+    background: rgba(100, 100, 100, .6);
+    position: absolute;
+    &:before{
+      top: 4px;
+      left: 3px;
+      position: absolute;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
+
+
+/* DDNUM */
+.ddnum-item{}
+
+.ddnum-step{
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin: 5px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 42px; 
+}
+.ddnum-step.blank{
+  border: 1px dotted darkgray;
+  border-radius: 5px;
+}
+.ddnum-step.selected{
+  border: 2px solid darkgray;
+  border-radius: 5px;
+}
+
+.ddnum-text{
+  /* margin-left: 5px; */
+  padding-left: 61px
+}
+.x-picker-slot .x-dataview-item.x-item-selected{
+  font-weight: normal;
+}
+
+
+/* DDTASK */
+
+.ddtask-item{}
+
+.ddtask-item-list{
+  margin-left: 20px;
+  .x-list-item{
+    background-color: #fefefe;
+    width: 90%;
+    @include single-box-shadow($hoff: 0px, $voff: 2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+    margin: 10px;
+    border: 1px solid darkgray !important;
+    border-radius: 6px !important;
+  }
+}
+
+.ddtask-arrow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 42px;
+  height: 100%;
+
+  border-left: 1px solid darkgray !important;
+}
+
+.ddtask-category-selected{
+color: darkgray;
+}
+.ddtask-category-notselected{
+  color: #79A2CB;
+}
+
+.ddtask-text-selected{
+  margin-left: 16px;
+  color: darkgray;
+  margin-right: 30px;
+}
+.ddtask-text-notselected{
+  margin-left: 16px;
+  margin-right: 30px;
+}
+
+
+
+.ddtask-picker{
+  border: 1px solid darkgray !important;
+  border-radius: 6px;
+  background-color: white !important;
+&.x-panel.x-floating>.x-dock.x-sized{
+  margin: 0px;
+}
+
+.ddtask-picker-title{
+  margin: 4px;
+  color: #555;
+  font-weight: bold;
+  .x-inner{
+    border-radius: 0px;
+  }
+}
+}
+
+.ddtask-category-text{
+text-align: center;
+font-weight: bold;
+
+}
+
+
+
+/**
+* @class Player.page.questions.review.DDTASK
+*/
+.ddtask-review-response{
+float: left;
+}
+
+.ddtask-review-category{
+font-weight: bold;
+text-decoration: underline;
+}
+
+.ddtask-review-guess {
+float: left;
+width:16px; 
+margin-left: 10px;
+&.correct{
+  color: green; 
+}
+&.incorrect{
+  color: red;
+}
+}
+
+// fix button overflow
+.x-big .x-button.x-iconalign-left > .x-button-label{
+  padding-right: 0.6em;
+}
+
+
+

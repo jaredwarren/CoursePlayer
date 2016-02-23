@@ -1,0 +1,142 @@
+
+$active-color: #9EC8EA;
+/*/
+$loading-spinner-color: white;
+$toolbar-base-color: #79A2CB;
+
+
+
+$mask-gradient-color: white;
+$mask-gradient-style: 'bevel';
+
+$tab-active-color: white;
+$background-color: white;
+$toolbar-input-color: white;
+
+// Misc Settings 
+$include-default-icons: true;
+$form-spacing: 0px 10px 0px 50px;
+$include-html-style: true;
+
+//*/
+// 
+// 
+
+
+@include toolbar-ui('light', #79A2CB, 'bevel');
+@include toolbar-ui('page-title', #79A2CB, 'bevel');
+//@include toolbar-ui('page-title', transparent, 'none');
+
+@include button-ui('action-round', #9EC8EA, $background-gradient:'bevel');
+@include button-ui('normal', #9EC8EA, $background-gradient:'bevel');
+@include button-ui('checkanswer', #9EC8EA, $background-gradient:'bevel');
+.x-button.checkanswer{
+	border-radius: 0;
+	border: 2px solid white;
+}
+.x-button-label{
+	color:white;
+}
+.x-button-icon{
+	color:white;
+}
+
+
+
+
+
+
+.x-iconalign-center{
+	padding: 0px !important;
+}
+
+.x-toolbar-light{
+	.x-title,.x-label{
+		@include color-by-background(green);
+    	@include bevel-by-background(green);
+    }
+}
+
+.x-toolbar-light .x-button{
+	color: white !important;
+	&.x-item-disabled{
+		opacity: .65;
+	}
+}
+
+.x-form .x-scroll-container{
+	background-color: white;
+}
+
+.x-html{
+	padding: 0;
+	font-size: 18px;
+}
+
+.tocLabelDisabled {
+	font-family: Verdana, sans-sarif;
+	color: rgb(255, 139, 141);
+}
+
+.dockedtoc{
+	border-right: 1px solid black;
+}
+
+
+.captionhead{
+	font-weight: bold;
+}
+
+.page-content{
+	padding:0 15px 0 10px;
+}
+.page-title{
+	padding:0 10px;
+	font-size: 20px;
+}
+.x-title{
+	font-size: 20px;	
+}
+
+.page-mask{
+	background:rgba(0,0,0,.0);
+}
+
+
+
+.x-msgbox .x-title{
+	font-size: 14px;
+}
+
+.x-msgbox .x-toolbar-inner{
+	background-image: none;
+}
+
+
+
+.x-video-ghost{
+	background-size: 85px;
+}
+
+.close-imagepopup .x-button .x-button-icon.x-icon-mask{
+	background-color:black !important;
+	background-image: none !important;
+}
+
+.close-imagepopup{
+	.x-panel-inner{
+		background-color: white !important;
+	}
+}
+
+
+.x-panel.x-floating .audiobox{
+	background: transparent;
+	.x-panel-inner{
+		background: transparent;
+	}
+}
+
+.x-layout-card-item{
+	background-color: white;
+}

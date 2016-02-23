@@ -1,0 +1,23 @@
+.categories-drop{
+	border: 1px solid $base-color;
+
+	.x-title-text{
+		overflow: visible;
+		white-space: normal;
+		text-overflow: initial;
+	}
+}
+
+
+.category-drag{
+	border: 1px solid $base-color;
+	cursor: pointer;
+	padding: 10px;
+}
+
+
+
+.cagegories-timerText{
+	border: 1px solid $base-color;
+	padding: 10px;	
+}

@@ -1,0 +1,17 @@
+/* LowerToolBar */
+
+.lowerToolBar{
+	@include single-box-shadow($hoff: 0px, $voff: -2px, $blur: 5px, $spread: 0px, $color: rgba(0,0,0,0.26));
+	.x-toolbar-inner{
+    padding: 4px;
+  }
+	.next-btn, .previous-btn{
+		.x-button-icon{
+
+		margin-left: -1px;
+		}
+	}
+	.x-button .x-button-icon{
+		color: white;
+	}
+}

@@ -1,0 +1,35 @@
+/* LowerToolBar */
+
+.upperToolBar {
+  @include single-box-shadow($hoff: 0px, $voff: 2px, $blur: 5px, $spread: 0px, $color: rgba(0, 0, 0, 0.26));
+
+  .x-toolbar-inner{
+    padding: 4px;
+  }
+
+  // otherwise we can't see the shadow
+  z-index: 1;
+  .coursetitle-large {
+    color: white;
+    font: bold 1rem helvetica, arial, sans-serif;
+  }
+  .coursetitle {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font: bold 1rem helvetica, arial, sans-serif;
+  }
+  .topictitle {
+    color: white;
+    font: bold 1rem helvetica, arial, sans-serif;
+  }
+  .x-panel-inner{
+    background: transparent;
+  }
+
+  .helpBtn .x-button-label{
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 6px;
+  }
+}
