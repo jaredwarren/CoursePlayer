@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<sco tracking="none" title="Towing - Trailer Backing" narration="false" glossary="false" saturationPercent="50" persIndex="false" courseLogo="https://enterpriseproducts.litmosauthor.com/access/Media/Original/EnterpriseProductsLogo.jpg" audioButton="false" exitButton="false" pageNumbering="true" include_question_cnt="false" indexTooltip="true" transition="fade" tranDirection="right" transitionTime="1" idleTime="" noLink="true" completion="completed" pageComplete="true">
+  <topics isthisused="true">
+    <topic title="Trailer Backing" objectiveId="none" nav="unrestricted" showTopicPages="true">
+      <page title="Enterprise eLearning" pType="Text and Image" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/enterprise_elearning_2015.jpg" imgPos="center" imageWidth="100" nType="none" file="swfs/templateswfs/rapidintake_textimage/ri_textimage_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false">
+  <pText>&lt;P ALIGN="LEFT"&gt;    &lt;/P&gt;</pText>
+</page>
+      <page title="Introduction" pType="Image and Audio" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/TrailerBacking_page01.jpg" imgPos="center" imageWidth="100" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" file="swfs/templateswfs/rapidintake_imageaudio/ri_imageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+      <page title="Trailer Backing - 1" pType="Image and Audio" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/TrailerBacking_page02.jpg" imgPos="center" imageWidth="100" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" file="swfs/templateswfs/rapidintake_imageaudio/ri_imageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+      <page title="Trailer Backing - 2" pType="Image and Audio" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/TrailerBacking_page03.jpg" imgPos="center" imageWidth="100" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" file="swfs/templateswfs/rapidintake_imageaudio/ri_imageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+      <page title="Trailer Backing - 3" pType="Image and Audio" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/TrailerBacking_page04.jpg" imgPos="center" imageWidth="100" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" file="swfs/templateswfs/rapidintake_imageaudio/ri_imageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+      <page title="Trailer Backing - 4" pType="Image and Audio" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/TrailerBacking_page05.jpg" imgPos="center" imageWidth="100" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" file="swfs/templateswfs/rapidintake_imageaudio/ri_imageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+      <page title="Trailer Backing - 5" pType="Image and Audio" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/TrailerBacking_page06.jpg" imgPos="center" imageWidth="100" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" file="swfs/templateswfs/rapidintake_imageaudio/ri_imageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+      <page title="Conclusion" pType="Text and Image" imageFile="https://enterpriseproducts.litmosauthor.com/access/Media/Original/ConclusionPage.jpg" imgPos="center" imageWidth="90" nType="note" file="swfs/templateswfs/rapidintake_textimage/ri_textimage_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false">
+  <pText>&lt;P ALIGN="LEFT"&gt; &lt;/P&gt;</pText>
+  <note>&lt;P ALIGN="LEFT"&gt;Got CBT Questions or Suggestions?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Email &lt;TEXTFORMAT LEADING="2"&gt;&lt;FONT COLOR="#0000FF"&gt;&lt;A HREF="mailto:OLMTraining@eprod.com?subject=Towing - Trailer Backing" TARGET="_blank"&gt;&lt;U&gt;OLMTraining@eprod.com  &lt;/U&gt;&lt;/A&gt;&lt;/FONT&gt;&lt;FONT COLOR="#0B333C"&gt;&lt;/FONT&gt;&lt;/TEXTFORMAT&gt;&lt;/P&gt;</note>
+</page>
+    </topic>
+    <topic title="Content" objectiveId="none" nav="unrestricted" showTopicPages="false"><page title="Course Purpose" pType="Visual Layout Page" loadPercentage="20" file="swfs/pagetemplates/ri_vlp.swf" fpsec="12" isTocEntry="true" nonNavPage="false" autoPlayMedia="true">
+  <settings allowDelete="1" allowMultiSelect="1" autoDeselect="0" constrainScale="0" lockScale="0" scaleFromCenter="0" lockRotation="1" lockPosition="0" arrowKeysMove="1" forceSelectionToFront="0" lineColor="3381759" lineThickness="1" handleColor="16777215" handleSize="8" paddingForRotation="12" hideCenterHandle="0" hasBounds="1" boundsX="0" boundsY="0" boundsWidth="960" boundsHeight="557"/>
+  <items>
+    <item name="TextView21492" level="0" a="1" b="0" c="0" d="1" tx="28.2" ty="0" xOffset="0" yOffset="0" rawWidth="705" rawHeight="400.15" scaleMode="scaleWidthAndHeight" hasSelectableText="0" minScaleX="-Infinity" maxScaleX="Infinity" minScaleY="-Infinity" maxScaleY="Infinity" lockScale="0" lockPosition="0" lockRotation="1" constrainScale="0" minWidth="1" maxWidth="Infinity" minHeight="1" maxHeight="Infinity" oType="Text">
+      <data name="Text1407157332336" alpha="0">
+        <pText>&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&amp;quot;For Training Purposes Only&#x201D;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The content in this lesson is to be used for training purposes only. The content should not be interpreted as a substitute for policies and procedures. Where copies of the policies and procedures are provided, they are intended for informational use only.&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;This course is intended to provide an introduction to ...&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;div class="override"&gt;&lt;/div&gt;</pText>
+      </data>
+    </item>
+    <item name="BackgroundAudioView55555" level="-1" oType="BackgroundAudio">
+      <data autoPlayMedia="true" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3"/>
+    </item>
+  </items>
+</page><page title="Course Objectives" pType="Visual Layout Page" loadPercentage="20" file="swfs/pagetemplates/ri_vlp.swf" fpsec="12" isTocEntry="true" nonNavPage="false" autoPlayMedia="true">
+  <settings allowDelete="1" allowMultiSelect="1" autoDeselect="0" constrainScale="0" lockScale="0" scaleFromCenter="0" lockRotation="1" lockPosition="0" arrowKeysMove="1" forceSelectionToFront="0" lineColor="3381759" lineThickness="1" handleColor="16777215" handleSize="8" paddingForRotation="12" hideCenterHandle="0" hasBounds="1" boundsX="0" boundsY="0" boundsWidth="960" boundsHeight="557"/>
+  <items>
+    <item name="TextView22212" level="0" a="1" b="0" c="0" d="1" tx="19.1" ty="0.2" xOffset="0" yOffset="0" rawWidth="888.35" rawHeight="401" scaleMode="scaleWidthAndHeight" hasSelectableText="0" minScaleX="-Infinity" maxScaleX="Infinity" minScaleY="-Infinity" maxScaleY="Infinity" lockScale="0" lockPosition="0" lockRotation="1" constrainScale="0" minWidth="1" maxWidth="Infinity" minHeight="1" maxHeight="Infinity" oType="Text">
+      <data name="Text1407157418001" alpha="0">
+        <pText>&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;By the end of this course, you will demonstrate successful comprehension of _____________ by:&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;BR/&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;UL&gt;&lt;LI&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="1"&gt;text&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;BR/&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;UL&gt;&lt;LI&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="1"&gt;text&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;BR/&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;UL&gt;&lt;LI&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="1"&gt;text&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;BR/&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;UL&gt;&lt;LI&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="1"&gt;text&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;BR/&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;UL&gt;&lt;LI&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;text&lt;FONT SIZE="10" COLOR="#0B333C"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TEXTFORMAT&gt;&lt;div class="override"&gt;&lt;/div&gt;</pText>
+      </data>
+    </item>
+    <item name="BackgroundAudioView55555" level="-1" oType="BackgroundAudio">
+      <data autoPlayMedia="true" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3"/>
+    </item>
+  </items>
+</page><page title=" (4)" pType="Visual Layout Page" loadPercentage="20" file="swfs/pagetemplates/ri_vlp.swf" fpsec="12" isTocEntry="true" nonNavPage="false" autoPlayMedia="true">
+  <settings allowDelete="1" allowMultiSelect="1" autoDeselect="0" constrainScale="0" lockScale="0" scaleFromCenter="0" lockRotation="0" lockPosition="0" arrowKeysMove="1" forceSelectionToFront="0" lineColor="3381759" lineThickness="1" handleColor="16777215" handleSize="8" paddingForRotation="12" hideCenterHandle="0" hasBounds="1" boundsX="0" boundsY="0" boundsWidth="960" boundsHeight="557"/>
+  <items>
+    <item name="BackgroundAudioView55555" level="-1" oType="BackgroundAudio">
+      <data autoPlayMedia="true" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3"/>
+    </item>
+  </items>
+</page><page title="[New Page Text Image and Audio]" pType="Text Image and Audio" imageFile="https://real.rapidintake.com/sample_image.jpg" imgPos="left" imageWidth="40" mediaPath="https://enterpriseproducts.litmosauthor.com/access/Media/whitenoise3sec.mp3" autoPlayMedia="true" mediaFormat="MP3" nType="none" file="swfs/templateswfs/rapidintake_textimageaudio/ri_textimageaudio_pg.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+</topic>
+    <topic title="Conclusion" objectiveId="none" nav="unrestricted" showTopicPages="false"><page title="[New Page quiz]" pType="quiz" id="ktctvim_1ytagl9" file="swfs/quiz.swf" loadPercentage="0" fpsec="12" isTocEntry="true" nonNavPage="false"/>
+</topic>
+  </topics>
+  <resources>
+    <link1 linkTitle="" linkLocation=""/>
+    <link2 linkTitle="" linkLocation=""/>
+    <link3 linkTitle="" linkLocation=""/>
+    <link4 linkTitle="" linkLocation=""/>
+    <link5 linkTitle="" linkLocation=""/>
+    <link6 linkTitle="" linkLocation=""/>
+    <link7 linkTitle="" linkLocation=""/>
+    <link8 linkTitle="" linkLocation=""/>
+    <link9 linkTitle="" linkLocation=""/>
+    <link10 linkTitle="" linkLocation=""/>
+    <link11 linkTitle="" linkLocation=""/>
+    <link12 linkTitle="" linkLocation=""/>
+  </resources>
+  <objectives>
+    <optOut active="false" passingScore="" title="Opt Out">
+      <promptText/>
+    </optOut>
+    <topic/>
+    <message>
+      <passed/>
+      <notpassed/>
+    </message>
+  </objectives>
+</sco>

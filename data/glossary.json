@@ -1,0 +1,311 @@
+{
+    "definitions": [
+        {
+            "text": "*",
+            "leaf": false,
+            "title": "*",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "A",
+            "leaf": false,
+            "title": "A",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">A form of non-verbal communication, consisting of body posture, gestures, facial expressions, and eye movements. We generally send and interpret such signals almost entirely subconsciously. <\/P>",
+                    "leaf": true,
+                    "title": "Body Language",
+                    "hideEntry": false
+                }
+            ],
+            "text": "B",
+            "leaf": false,
+            "title": "B",
+            "numDef": 1
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Knowing the strengths and weaknesses of your <span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/www.communication-styles.com\/communication-style-survey-instructions.html\" TARGET=\"_blank\"><U>communication style<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span> will help you communicate more professionally e.g. if your style is Controller, you can communicate  better by listening more, allowing time for small talk, and showing interest in your audience.<\/P><P style=\"text-align:LEFT\"><B><\/B><\/P><P style=\"text-align:LEFT\"><B>Paul Endress<\/B><\/P><P style=\"text-align:LEFT\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/www.communication-styles.com\/\" TARGET=\"_blank\"><U>http:\/\/www.communication-styles.com\/<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P><P style=\"text-align:LEFT\"><\/P>",
+                    "leaf": true,
+                    "title": "Communication Style",
+                    "hideEntry": false
+                }
+            ],
+            "text": "C",
+            "leaf": false,
+            "title": "C",
+            "numDef": 1
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">HD Wallpapers Plus:<span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/Funny_wallpapers_Contact_Evolution_014169_.jpg\" TARGET=\"_blank\"><U>Evolution<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P><P style=\"text-align:LEFT\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/www.hdwallpapersplus.com\/funny-backgrounds-for-desktop.html\" TARGET=\"_blank\"><U>http:\/\/www.hdwallpapersplus.com\/funny-backgrounds-for-desktop.html<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P>",
+                    "leaf": true,
+                    "title": "Desktop Images",
+                    "hideEntry": false
+                }
+            ],
+            "text": "D",
+            "leaf": false,
+            "title": "D",
+            "numDef": 1
+        },
+        {
+            "text": "E",
+            "leaf": false,
+            "title": "E",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "F",
+            "leaf": false,
+            "title": "F",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "G",
+            "leaf": false,
+            "title": "G",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "H",
+            "leaf": false,
+            "title": "H",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "I",
+            "leaf": false,
+            "title": "I",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "J",
+            "leaf": false,
+            "title": "J",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "K",
+            "leaf": false,
+            "title": "K",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "L",
+            "leaf": false,
+            "title": "L",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Your preferred method of communicating. The arrangement of, or mode of expressing your message.<\/P>",
+                    "leaf": true,
+                    "title": "Modus Communicandi",
+                    "hideEntry": false
+                }
+            ],
+            "text": "M",
+            "leaf": false,
+            "title": "M",
+            "numDef": 1
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">The rules of etiquette that apply when communicating over computer networks, especially the Internet.<\/P>",
+                    "leaf": true,
+                    "title": "Netiquette",
+                    "hideEntry": false
+                }
+            ],
+            "text": "N",
+            "leaf": false,
+            "title": "N",
+            "numDef": 1
+        },
+        {
+            "text": "O",
+            "leaf": false,
+            "title": "O",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Incorrect. Bob\u2019s coworker is confused. Was Bob really grateful or &quot;;)&quot;, just kidding? Is Bob gone for the day or will he &quot;BRB&quot;, be right back?<\/P>",
+                    "leaf": true,
+                    "title": "Pretest_1",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Karen&apos;s message is a professional voicemail because it is informative and concise.<\/P>",
+                    "leaf": true,
+                    "title": "Pretest_2",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Incorrect. This would\u2019ve been unprofessional if it was a videoconference.<\/P>",
+                    "leaf": true,
+                    "title": "Pretest_3",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">A professional is a person who is engaged in a certain activity, or occupation, for gain or compensation as means of livelihood; such as a permanent career, not as an amateur or pastime. Thus profession language is using effective communication skills that helps the listener understand and trust that the speaker knows what they are talking about. Like most professional occupations, there is a code of conduct and language that is acceptable and differentiates the speaker from an ameteur.<\/P>",
+                    "leaf": true,
+                    "title": "Professional Language",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Incorrect. Lengthy introductions start the webinar off on a boring note.<\/P>",
+                    "leaf": true,
+                    "title": "Pretest_4",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">That&apos;s right.<\/P>",
+                    "leaf": true,
+                    "title": "Pretest_Correct",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Incorrect. Short reminders that are clear and specific are a good use of text messaging.<\/P>",
+                    "leaf": true,
+                    "title": "Pretest_5",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">How to Connect to an Espson Projector<\/P><P style=\"text-align:LEFT\"><B>EpsonTV<\/B><\/P><P style=\"text-align:LEFT\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/youtu.be\/1ZoOvfI9zmE\" TARGET=\"_blank\"><U>http:\/\/youtu.be\/1ZoOvfI9zmE<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P>",
+                    "leaf": true,
+                    "title": "Projector",
+                    "hideEntry": false
+                }
+            ],
+            "text": "P",
+            "leaf": false,
+            "title": "P",
+            "numDef": 8
+        },
+        {
+            "text": "Q",
+            "leaf": false,
+            "title": "Q",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "R",
+            "leaf": false,
+            "title": "R",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Mark Morgan<\/P><P style=\"text-align:LEFT\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/youtu.be\/EpF9s3cOzV4\" TARGET=\"_blank\"><U>http:\/\/youtu.be\/EpF9s3cOzV4<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P>",
+                    "leaf": true,
+                    "title": "Smart Board Callibration",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:CENTER\"><B>SMART<\/B><\/P><P style=\"text-align:CENTER\">Extraordinary made simple<\/P><P style=\"text-align:CENTER\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/youtu.be\/ISevviuEsn4\" TARGET=\"_blank\"><U>http:\/\/youtu.be\/ISevviuEsn4<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P><P style=\"text-align:CENTER\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/www.smarttech.com\" TARGET=\"_blank\"><U>www.smarttech.com<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P>",
+                    "leaf": true,
+                    "title": "Smart Board Demonstration",
+                    "hideEntry": false
+                }
+            ],
+            "text": "S",
+            "leaf": false,
+            "title": "S",
+            "numDef": 2
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/TextingWhileDrivingCartoon.jpg\" TARGET=\"_blank\"><U>Illinois Tollway Authority Cartoon<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P>",
+                    "leaf": true,
+                    "title": "Texting & Driving",
+                    "hideEntry": false
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Made up of abbreviations and slang commonly used on cell phone text messaging and other Internet-based communication such as email and instant messaging. (Examples: <span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/www.netlingo.com\/acronyms.php\" TARGET=\"_blank\">www.netlingo.com<\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span>)<\/P>",
+                    "leaf": true,
+                    "title": "txtspk",
+                    "hideEntry": false
+                }
+            ],
+            "text": "T",
+            "leaf": false,
+            "title": "T",
+            "numDef": 2
+        },
+        {
+            "text": "U",
+            "leaf": false,
+            "title": "U",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">How Stuff Works - <span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"Jennifer Horton\" TARGET=\"_blank\"><U>How Classroom Video Conferencing Works<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P><P style=\"text-align:LEFT\"><B>Jennifer Horton<\/B><\/P>",
+                    "leaf": true,
+                    "title": "Video Conferencing",
+                    "hideEntry": false
+                }
+            ],
+            "text": "V",
+            "leaf": false,
+            "title": "V",
+            "numDef": 1
+        },
+        {
+            "text": "W",
+            "leaf": false,
+            "title": "W",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "X",
+            "leaf": false,
+            "title": "X",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "Y",
+            "leaf": false,
+            "title": "Y",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "Z",
+            "leaf": false,
+            "title": "Z",
+            "numDef": 0,
+            "definitions": []
+        }
+    ],
+    "total": 0
+}

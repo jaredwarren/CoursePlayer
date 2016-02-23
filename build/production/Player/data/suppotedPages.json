@@ -1,0 +1,164 @@
+{
+	"leaf": "false",
+	"page": [{
+		"pType": "Definitions",
+		"pageName": "Definitions",
+		"supported": true
+	}, {
+		"pType": "Image and Audio",
+		"pageName": "Image and Audio",
+		"supported": true
+	}, {
+		"pType": "quiz",
+		"pageName": "quiz",
+		"supported": true
+	}, {
+		"pType": "Quiz",
+		"pageName": "Quiz",
+		"supported": true
+	}, {
+		"pType": "Text Image and Audio",
+		"pageName": "Text Image and Audio",
+		"supported": true
+	}, {
+		"pType": "Text and Audio",
+		"pageName": "Text and Audio",
+		"supported": true
+	}, {
+		"pType": "Text and Image Link",
+		"pageName": "Text and Image Link",
+		"supported": false
+	}, {
+		"pType": "Text Image Link and Audio",
+		"pageName": "Text Image Link and Audio",
+		"supported": false
+	}, {
+		"pType": "Image Link and Audio",
+		"pageName": "Image Link and Audio",
+		"supported": false
+	}, {
+		"pType": "Text and Video",
+		"pageName": "Text and Video",
+		"supported": true
+	}, {
+		"pType": "Video",
+		"pageName": "Video",
+		"supported": true
+	}, {
+		"pType": "Text and Image",
+		"pageName": "Text and Image",
+		"supported": true
+	}, {
+		"pType": "Text",
+		"pageName": "Text",
+		"supported": true
+	}, {
+		"pType": "Html",
+		"pageName": "Html",
+		"supported": true
+	}, {
+		"pType": "External SWF default",
+		"pageName": "External SWF default",
+		"supported": false
+	}, {
+		"pType": "Text Audio and SWF",
+		"pageName": "Text Audio and SWF",
+		"supported": false
+	}, {
+		"pType": "Game Concentration",
+		"pageName": "Game Concentration",
+		"supported": false
+	}, {
+		"pType": "Game Categories",
+		"pageName": "Game Categories",
+		"supported": false
+	}, {
+		"pType": "Game Risk It All",
+		"pageName": "Game Risk It All",
+		"supported": false
+	}, {
+		"pType": "Game Scatterbrained",
+		"pageName": "Game Scatterbrained",
+		"supported": false
+	}, {
+		"pType": "Game Trouble With Triples",
+		"pageName": "Game Trouble With Triples",
+		"supported": false
+	}, {
+		"pType": "Jigsaw",
+		"pageName": "Jigsaw",
+		"supported": false
+	}, {
+		"pType": "Soft Skills Sim",
+		"pageName": "Soft Skills Sim",
+		"supported": false
+	}, {
+		"pType": "Image Mouseover",
+		"pageName": "Image Mouseover",
+		"supported": false
+	}, {
+		"pType": "PowerPoint Slide",
+		"pageName": "PowerPoint Slide",
+		"supported": false
+	}, {
+		"pType": "Step by Step",
+		"pageName": "Step by Step",
+		"supported": false
+	}, {
+		"pType": "Certificate",
+		"pageName": "Certificate",
+		"supported": false
+	}, {
+		"pType": "Visual Layout Page",
+		"pageName": "Visual Layout Page",
+		"supported": false
+	}, {
+		"pType": "Case Study",
+		"pageName": "Case Study",
+		"supported": false
+	}, {
+		"pType": "Categories Drag",
+		"pageName": "Categories Drag",
+		"supported": false
+	}, {
+		"pType": "Concentric Circles",
+		"pageName": "Concentric Circles",
+		"supported": false
+	}, {
+		"pType": "Matching",
+		"pageName": "Matching",
+		"supported": false
+	}, {
+		"pType": "Spin The Wheel",
+		"pageName": "Spin The Wheel",
+		"supported": false
+	}, {
+		"pType": "Survey",
+		"pageName": "Survey",
+		"supported": false
+	}, {
+		"pType": "Venn Diagram",
+		"pageName": "Venn Diagram",
+		"supported": false
+	}, {
+		"pType": "Word Game Non-Timed",
+		"pageName": "Word Game Non-Timed",
+		"supported": false
+	}, {
+		"pType": "Word Game Timed",
+		"pageName": "Word Game Timed",
+		"supported": false
+	}, {
+		"pType": "Streaming Video",
+		"pageName": "Streaming Video",
+		"supported": false
+	}, {
+		"pType": "Popup External Activity",
+		"pageName": "Popup External Activity",
+		"supported": false
+	}, {
+		"pType": "Text and SWF",
+		"pageName": "Text and SWF",
+		"supported": false
+	}]
+}

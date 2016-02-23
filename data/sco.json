@@ -1,0 +1,808 @@
+{
+    "page": [
+        {
+            "page": [
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">Welcome to the Professional eSPK lesson. The purpose of this lesson is to improve communication in the workplace by learning how to communicate effectively with the appropriate communication tool. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click Next to see how eSPK savvy you already are. <\/P>"
+                    },
+                    "title": "Welcome",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/welcome.jpg",
+                    "imgPos": "center",
+                    "imageWidth": 100,
+                    "mediaPath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/eSPK001.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "file": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf|0"
+                },
+                {
+                    "gPremise": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#000000;\" LETTERSPACING=\"0\" KERNING=\"0\">Test your <span style=\"color:#0000FF;\"><A HREF=\"asfunction:glossary,Netiquette\" ><U>netiquette<\/U><\/A><\/span> skills by categorizing the communication scenarios below. After reading each example, c<span style=\"color:;\"KERNING=\"1\">lick <B>Professional<\/B> or <B>Unprofessional<\/B> on the right.<\/span><\/span><\/P><\/span><div class=\"override\"><\/div>"
+                    },
+                    "pInstr": [],
+                    "altMobileContent": {
+                        "altImageFile": "https:\/\/real.rapidintake.com\/sample_image.jpg",
+                        "altImgPos": "left",
+                        "altImageWidth": 40,
+                        "altNType": "none"
+                    },
+                    "html5Text": {
+                        "#text": "<p style=\"margin-left: 10px;\"><span style=\"font-size: large;\"><strong>What Is Your Modus Communicandi?<\/strong><\/span><\/p><table style=\"border: 1px solid #141414; background-color: #ffffff; margin-left: 30px; height: 364px; width: 343px;\" border=\"1\" frame=\"border\" cellspacing=\"1\"><tbody style=\"margin-left: 30px;\"><tr style=\"margin-left: 10px;\"><td style=\"margin-left: 10px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/stockmedia\/10_013_david_s.png\" alt=\"\" width=\"118\" height=\"306\" \/><\/td><td style=\"margin-left: 10px;\" vstyle=\"text-align:bottom\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/stockmedia\/52_013b_david3_s.png\" alt=\"\" width=\"179\" height=\"288\" \/><\/td><\/tr><tr style=\"margin-left: 30px;\"><td style=\"background-color: #656464;\"><span style=\"font-size: large; color: #ffffff;\"><strong>PROFESSIONAL<\/strong><\/span><\/td><td style=\"background-color: #656464;\"><span style=\"font-size: large; color: #ffffff;\"><strong>UNPROFESSIONAL<\/strong><\/span><\/td><\/tr><\/tbody><\/table><p style=\"margin-left: 10px;\">Test your <a href=\"asfunction:glossary,Netiquette\">netiquette<\/a> skills by categorizing the communication scenarios below. After reading each example, tap Professional or Unprofessional.<\/p><table style=\"width: 100%;\" border=\"0\"><tbody><tr><td style=\"background-color: #9c9b9b;\" colspan=\"2\"><strong>SCENARIO 1<br \/><\/strong><span>Bob sent an instant message to a coworker before leaving for the day. He said, &ldquo;thx 4 ur help 2day ;) BRB&rdquo;.<\/span><\/td><\/tr><tr><td style=\"background-color: #9c9b9b; text-align: center;\"><span>(A)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_1\"><span>Professional<\/span><\/a><\/span><\/span><\/td><td style=\"background-color: #9c9b9b; text-align: left;\"><span>(B)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_Correct\"><span>Unprofessional<\/span><\/a><\/span><\/span><\/td><\/tr><tr><td colspan=\"2\"><strong>SCENARIO 2<br \/><\/strong>Karen left a voicemail for her boss. &ldquo;Hi Tom it&rsquo;s Karen. I came down with a bad cold and won&rsquo;t be able to come into work today.&nbsp; I&rsquo;ll let you know this afternoon if I&rsquo;m able to come in tomorrow. You can reach me at #. Good-bye.&rdquo;<\/td><\/tr><tr><td style=\"text-align: center;\"><span>(A)&nbsp;<\/span><a href=\"asfunction:glossary,Pretest_2\">Professional<\/a><\/td><td style=\"text-align: left;\">(B)&nbsp;<a href=\"asfunction:glossary,Pretest_2\">Unprofessional<\/a><\/td><\/tr><tr><td style=\"background-color: #9c9b9b;\" colspan=\"2\"><strong>SCENARIO 3<br \/><\/strong><span>Kim participated in a conference call from home in his pajamas. The meeting went well and the client was happy with the progress Kim was making on their project.<\/span><\/td><\/tr><tr><td style=\"background-color: #9c9b9b; text-align: center;\"><span>(A)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_Correct\"><span>Professional<\/span><\/a><\/span><\/span><\/td><td style=\"background-color: #9c9b9b; text-align: left;\"><span>(B)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_3\"><span>Unprofessional<\/span><\/a><\/span><\/span><\/td><\/tr><tr><td colspan=\"2\"><strong>SCENARIO 4<br \/><\/strong>John felt very good about the webinar he hosted from work at work. He spent 10 minutes giving a thorough introduction of his role in the company and filled the remaining time with a powerfully packed sales presentation.<\/td><\/tr><tr><td style=\"text-align: center;\"><span>(A)&nbsp;<\/span><a href=\"asfunction:glossary,Pretest_4\">Professional<\/a><\/td><td>(B)&nbsp;<a href=\"asfunction:glossary,Pretest_Correct\">Unprofessional<\/a><\/td><\/tr><tr><td style=\"background-color: #9c9b9b;\" colspan=\"2\"><table border=\"0\"><tbody><tr><td colspan=\"2\"><strong>SCENARIO 5<br \/><\/strong>Madison sent a text message reminder to her sales team. &ldquo;Don&rsquo;t forget lunch today, 1 pm @ Gandolfos&rdquo;.<\/td><\/tr><\/tbody><\/table><\/td><\/tr><tr><td style=\"background-color: #9c9b9b; text-align: center;\"><span>&nbsp;(A)&nbsp;<\/span><span><a href=\"asfunction:glossary,Pretest_Correct\"><span>Professional<\/span><\/a><\/span><\/td><td style=\"background-color: #9c9b9b;\"><span>(B)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_5\"><span>Unprofessional<\/span><\/a><\/span><\/span><\/td><\/tr><\/tbody><\/table><p>&nbsp;<\/p><p>&nbsp;<\/p>"
+                    },
+                    "narration": [],
+                    "sourceType": "static",
+                    "title": "What Is Your Modus Communicandi?",
+                    "pType": "GameCategories",
+                    "err0": "Sorry, not correct!",
+                    "AnsQ1": 2,
+                    "AnsQ2": 1,
+                    "AnsQ3": 1,
+                    "AnsQ4": 2,
+                    "AnsQ5": 1,
+                    "AnsQ6": "Select One",
+                    "AnsQ7": "Select One",
+                    "AnsQ8": "Select One",
+                    "AnsQ9": "Select One",
+                    "AnsQ10": "Select One",
+                    "AnsQ11": "Select One",
+                    "AnsQ12": "Select One",
+                    "AnsQ13": "Select One",
+                    "AnsQ14": "Select One",
+                    "AnsQ15": "Select One",
+                    "AnsQ16": "Select One",
+                    "AnsQ17": "Select One",
+                    "AnsQ18": "Select One",
+                    "AnsQ19": "Select One",
+                    "AnsQ20": "Select One",
+                    "file": "swfs\/templateswfs\/rapidintake_categories\/ri_categories.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "Answer1": "Professional",
+                    "Answer2": "Unprofessional",
+                    "Qstn1": "Bob sent an instant message to a coworker before leaving for the day. He said, \u201cthx 4 ur help 2day ;) BRB\u201d.",
+                    "Qstn2": "Karen left a voicemail for her boss. \u201cHi Tom it\u2019s Karen. I came down with a bad cold and won\u2019t be able to come into work today.  I\u2019ll let you know this afternoon if I\u2019m able to come in tomorrow. You can reach me at #. Good-bye.\u201d",
+                    "Qstn3": "Kim participated in a conference call from home in his pajamas. The meeting went well and the client was happy with the progress Kim was making on their project.",
+                    "Qstn4": "John felt very good about the webinar he hosted from work at work. He spent 10 minutes giving a thorough introduction of his role in the company and filled the remaining time with a powerfully packed sales presentation.",
+                    "Qstn5": "Madison sent a text message reminder to her sales team. \u201cDon\u2019t forget lunch today, 1 pm @ Gandolfos\u201d.",
+                    "err1": "Incorrect. Bob\u2019s coworker is confused. Was Bob really grateful or \";)\", just kidding? Is Bob gone for the day or will he \"BRB\", be right back?",
+                    "err2": "Karen's message is a professional voicemail because it is informative and concise.",
+                    "err3": "Incorrect. This would\u2019ve been unprofessional if it was a videoconference.",
+                    "err4": "Incorrect. Lengthy introductions start the webinar off on a boring note.",
+                    "err5": "Incorrect. Short reminders that are clear and specific are a good use of text messaging.",
+                    "mediaPathOK": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Ding.mp3",
+                    "mediaPathNO": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Buzzer.mp3",
+                    "mediaPathAttn": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Silent2Sec.mp3",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_categories\/ri_categories.swf|0"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">How do you feel you did?<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">As with any written scenario, there\u2019s definitely room for interpretation. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Unless we\u2019re speaking to a person face-to-face, correctly interpreting body language, and verifying the message, we\u2019re shortcutting our communication and leaving room for misunderstanding and conflict. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">This lesson will help you avoid the most common pitfalls associated with today\u2019s most popular communication tools and give you some helpful tips on accepted technology etiquette.<\/P><P style=\"text-align:LEFT\"><\/P>"
+                    },
+                    "title": "Why Professional eSPK?",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/e107.flv",
+                    "mobileMediaPath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/e107.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|0"
+                }
+            ],
+            "title": "Welcome",
+            "objectiveID": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 0
+        },
+        {
+            "page": [
+                {
+                    "popup_title": {
+                        "#text": "Asking the Right Questions"
+                    },
+                    "popup_instruction": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:10px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\">Before you decide which device to use to communicate, consider your audience. Click each section of the Venn Diagram to explore your audience in more detail.<\/span><\/P><\/span><div class=\"override\"><\/div>"
+                    },
+                    "start_btn": {
+                        "#text": "START"
+                    },
+                    "configuration": {
+                        "audio": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/eSPK120.mp3",
+                        "circles": 3
+                    },
+                    "title_txt": {
+                        "#text": "Know Your Audience"
+                    },
+                    "game": {
+                        "label2": {
+                            "circle1": {
+                                "label": "Label 1",
+                                "audio": " https:\/\/real.rapidintake.com\/sample_audio.mp3",
+                                "img": "https:\/\/real.rapidintake.com\/sample_image.jpg",
+                                "position": "left"
+                            },
+                            "circle2": {
+                                "label": "Label 2",
+                                "audio": " https:\/\/real.rapidintake.com\/sample_audio.mp3",
+                                "img": "https:\/\/real.rapidintake.com\/sample_image.jpg",
+                                "position": "left"
+                            },
+                            "circle3": {
+                                "label": "Label 3",
+                                "audio": " https:\/\/real.rapidintake.com\/sample_audio.mp3",
+                                "img": "https:\/\/real.rapidintake.com\/sample_image.jpg",
+                                "position": "left"
+                            }
+                        },
+                        "label3": {
+                            "circle1": {
+                                "#text": "If your meeting is live, make sure you schedule the meeting at a convenient time for your audience. Also, if your business takes you abroad don\u2019t assume all participants speak English.",
+                                "label": "Demographics",
+                                "audio": "",
+                                "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/TimeZoneMap.png",
+                                "position": "left"
+                            },
+                            "circle2": {
+                                "#text": "Do your homework and learn a little about your audience\u2019s culture. You may be surprised how saying, \"Hello\" in your audience\u2019s native tongue breaks down communication barriers and builds a relationship of trust. (<a href=\"http:\/\/www.inkdrop.net\/dave\/news.html\" target=\"_blank\"><u>www.inkdrop.net\/dave\/news.html<\/u><\/a>, <a href=\"http:\/\/translate.google.com\" target=\"_blank\"><u>translate.google.com<\/u><\/a>)",
+                                "label": "Culture",
+                                "audio": "",
+                                "img": "",
+                                "position": "left"
+                            },
+                            "circle3": {
+                                "#text": "Ask yourself why your audience wants to listen to your message and don\u2019t stray too far off its intended purpose.",
+                                "label": "Purpose",
+                                "audio": "",
+                                "img": "",
+                                "position": "left"
+                            },
+                            "circle4": {
+                                "#text": "Be sensitive to gender when using analogies, examples, and media. If your audience can\u2019t relate to how you\u2019re presenting your message, they\u2019ll be less likely to listen.",
+                                "label": "Gender",
+                                "audio": "",
+                                "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/Gender.jpg",
+                                "position": "left"
+                            },
+                            "circle5": {
+                                "#text": "The best way to improve your professional communication is to understand the limits and strengths of your personal communication style. (<a href=\"http:\/\/www.communication-styles.com\/communication-style-survey-instructions.html\" target=\"blank\"><u>www.communication-styles.com\/communication-style-survey-instructions.html<\/u><\/a>)",
+                                "label": "Comm. Style",
+                                "audio": "",
+                                "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/CommStyle.jpg",
+                                "position": "left"
+                            }
+                        }
+                    },
+                    "color": {
+                        "button": "#003399",
+                        "button_over": "#3889E2",
+                        "title_bar": "#484845",
+                        "bg_color1": "#FFFFFF",
+                        "bg_color2": "#A4A195",
+                        "circle1": "#FF0700",
+                        "circle2": "#01939A",
+                        "circle3": "#9BED00"
+                    },
+                    "altMobileContent": {
+                        "altImageFile": "https:\/\/real.rapidintake.com\/sample_image.jpg",
+                        "altImgPos": "left",
+                        "altImageWidth": 40,
+                        "altNType": "none"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">Before you decide which device to use to communicate, consider your audience. Click each section of the Venn Diagram to explore your audience in more detail.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click Start to begin.<\/P>"
+                    },
+                    "html5Text": {
+                        "#text": "<p><span style=\"font-size: large;\"><strong>Know Your Audience<\/strong><\/span><br \/><img style=\"border: 1px solid black;\" title=\"World Time Zone\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/TimeZoneMap.png\" alt=\"World Time Zone\" width=\"95%\" \/><\/p><p style=\"margin-left: 5px;\"><strong>Asking the Right Questions<br \/><\/strong>Before you decide which device to use to communicate, consider your audience.<\/p><table style=\"margin-left: 10px; margin-right: 5px;\" border=\"0\"><tbody><tr><td style=\"background-color: #9c9b9b;\"><p><strong>Demographics<br \/><\/strong>If your meeting is live, make sure you schedule the meeting at a convenient time for your audience. Also, if your business takes you abroad don&rsquo;t assume all participants speak English.<\/p><\/td><\/tr><tr><td><p><strong>Culture<br \/><\/strong>Do your homework and learn a little about your audience&rsquo;s culture. You may be surprised how saying hello in your audience&rsquo;s native tongue breaks down communication barriers and builds a relationship of trust.<br \/>(<a href=\"http:\/\/www.inkdrop.net\/dave\/news.html\">www.inkdrop.net\/dave\/news.html<\/a>, <a href=\"http:\/\/translate.google.com\">translate.google.com<\/a>).<a href=\"http:\/\/www.inkdrop.net\/dave\/news.html\"><br \/><\/a><\/p><\/td><\/tr><tr><td style=\"background-color: #9c9b9b;\"><p><strong>Purpose<br \/><\/strong>Ask yourself why your audience wants to listen to your message and don&rsquo;t stray too far off its intended purpose.<\/p><\/td><\/tr><tr><td><p><strong>Gender<br \/><\/strong>Be sensitive to gender when using analogies, examples, and media. If your audience can&rsquo;t relate to how you&rsquo;re presenting your message, they&rsquo;ll be less likely to listen.<\/p><p><img style=\"border: 1px solid black;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Gender.jpg\" alt=\"\" width=\"306\" height=\"154\" \/><\/p><\/td><\/tr><tr><td style=\"background-color: #9c9b9b;\"><p><strong>Communication Style<br \/><\/strong>The best way to improve your professional communication is to understand the limits and strengths of your personal communication style.<\/p><p><img style=\"border: 1px solid black;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/CommStyle.jpg\" alt=\"\" width=\"95%\" \/><\/p><\/td><\/tr><\/tbody><\/table><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p>"
+                    },
+                    "sourceType": "static",
+                    "title": "Consider Your Audience",
+                    "pType": "VennDiagram",
+                    "file": "swfs\/templateswfs\/adv_int\/rapidintake_venndiagram\/rapidintake_venndiagram.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "linkID": "e120",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/adv_int\/rapidintake_venndiagram\/rapidintake_venndiagram.swf|0"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">It\u2019s important to take some time to learn how to work your device before you start using it professionally. Check out your user manual, online forums, YouTube demonstrations, or ask a friendly coworker.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Make sure your audience can receive your message and that your device is ready and reliable.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">If you don\u2019t have control over what device is going to be used during the meeting, ask if you can try it out before the meeting or talk to an IT person to make sure you know how it works and what connections or devices are compatible.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">For instance, for a projector, identify which laptop connection VGA\/DVI\/HDMI\/ADC or mini-DVI that you need. Do the same for your speaker system or microphone, because audio from laptops is never loud enough. And, don\u2019t forget your trusty presentation pointer.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">If you\u2019re using a Smart Board, begin by connecting the smart cable to the USB port on your computer. Then, calibrate the touch points and remember to put down the pen when you want to drag things.  <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">For webinars, make sure your audience can download the necessary software and all participants have a reliable internet connection. Know how to share your screen\u2026, webcam\u2026, and turn on and off the audio. If you\u2019re planning on using any of the added features like polling\u2026, changing presenter\u2026, or markup, practice so your transitions will be smooth.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">And for mobile devices, know how to silence the ringer\u2026, mute a call\u2026, and DON\u2019T text and drive. Remember, before you tap send, review your mobile message twice because you\u2019re 2 times as likely to make a clerical error.<\/P><P style=\"text-align:LEFT\"><\/P>"
+                    },
+                    "title": "Know Your Communication Tools",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/e130.flv",
+                    "mobileMediaPath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/e130Device.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|1"
+                },
+                {
+                    "intro": {
+                        "#text": "<P style=\"text-align:LEFT\">Do you have virtual office space in Second Life yet, or do you have your Bluetooth permanently attached to your ear?<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">To be environment friendly when communicating professionally means to be aware of what\u2019s around you and who can hear you or your device.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">In this interaction you&apos;ll explore how to be environmentally friendly by clicking on each of the circles. Click start to begin.<\/P>",
+                        "introTitle": "How Your Communication Effects Others"
+                    },
+                    "start_btn": {
+                        "#text": "START"
+                    },
+                    "audioPath": {
+                        "audio": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/eSPK140_1.mp3"
+                    },
+                    "cir1": {
+                        "#text": "<P style=\"text-align:LEFT\"><B>Alerts<\/B><\/P><P style=\"text-align:LEFT\">When working within earshot of other people, turn off your audio alerts. As entertaining as you may think your creative sounds are, other people will quickly get annoyed when they hear &quot;whoosh&quot; or &quot;ding&quot; multiple times throughout the day.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Visual alerts and silent mode are much more environmentally freindly.<\/P>",
+                        "label": "Alerts",
+                        "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/message.jpg"
+                    },
+                    "cir2": {
+                        "#text": "<P style=\"text-align:LEFT\"><B>Video Conferencing<\/B><\/P><P style=\"text-align:LEFT\">\u2022 Do a quick mirror check to make sure you\u2019re presentable<\/P><P style=\"text-align:LEFT\">\u2022 Wear appropriate attire that does not distract<\/P><P style=\"text-align:LEFT\">\u2022 Remove any distractions from your background<\/P><P style=\"text-align:LEFT\">\u2022 Reduce as much surrounding commotion as possible before beginning:<\/P><P style=\"text-align:LEFT\">  - Close doors<\/P><P style=\"text-align:LEFT\">  - Turn off ringers<\/P><P style=\"text-align:LEFT\">  - Put your dog out<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\"><B>HowStuffWorks<\/B><B><I> -<\/I><\/B><\/P><P style=\"text-align:LEFT\"><span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/people.howstuffworks.com\/classroom-video-conferencing.htm\" TARGET=\"_blank\"><U>Rain Forest Video Conference<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span><\/P>",
+                        "label": "Video Conferencing",
+                        "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/classroom-video-conferencing-1.jpg"
+                    },
+                    "cir3": {
+                        "#text": "<P style=\"text-align:LEFT\"><B>Email\/Instant Messaging (IM)<\/B><\/P><P style=\"text-align:LEFT\">\u2022 Respond in a reasonable time frame<\/P><P style=\"text-align:LEFT\">\u2022 Change your availability status or add an &quot;Out-of-Office&quot; response<\/P><P style=\"text-align:LEFT\">\u2022 Save emotional communication for face-to-face<\/P><P style=\"text-align:LEFT\">\u2022 Consider the length:<\/P><P style=\"text-align:LEFT\">  - IM = 1-2 sentences max<\/P><P style=\"text-align:LEFT\">  - email = 2-3 paragraphs max<\/P><P style=\"text-align:LEFT\">  - attachment =  4+ paragraphs, 2 MB max (ask permission to send anything larger or send them a link for downloading)<\/P>",
+                        "label": "Email\/Instant Messaging (IM)"
+                    },
+                    "cir4": {
+                        "#text": "<P style=\"text-align:LEFT\"><B>Screen Sharing<\/B><\/P><P style=\"text-align:LEFT\">\u2022 Consider your desktop pictures or icons before sharing your screen with a client<\/P><P style=\"text-align:LEFT\">  - Hide propriotary information<\/P><P style=\"text-align:LEFT\">  - Use full screen to avoid distractions<\/P><P style=\"text-align:LEFT\">\u2022 Close all documents and applications that will not be shared<\/P><P style=\"text-align:LEFT\">  - Turn off IM or other pop-up messaging<\/P><P style=\"text-align:LEFT\">\u2022 Screen savers can be entertaining but probably won&apos;t help you promote your message<\/P>",
+                        "label": "Screen Sharing",
+                        "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/Funny_wallpapers_Contact_Evolution_014169_.jpg"
+                    },
+                    "cir5": {
+                        "#text": "<P style=\"text-align:LEFT\"><B>Texting<\/B><\/P><P style=\"text-align:LEFT\">\u2022 Use silent mode when other people are around<\/P><P style=\"text-align:LEFT\">\u2022 Don\u2019t use <span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"asfunction:glossary,txtspk\" ><U>txtspk<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span> in the workplace<\/P><P style=\"text-align:LEFT\">\u2022 Don\u2019t text and drive<\/P><P style=\"text-align:LEFT\">\u2022 Don\u2019t text and walk in public<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Texting is becoming one of the most popular methods of communication because of its convenience. For that reason, it is important that we are considerate of others when sending and receiving text messages. <\/P>",
+                        "label": "Texting",
+                        "img": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/TextingWhileDrivingCartoon.jpg"
+                    },
+                    "color": {
+                        "button": "#3889E2",
+                        "button_over": "#003399",
+                        "title_bar": "#484845",
+                        "bg_color1": "#FFFFFF",
+                        "bg_color2": "#A4A195",
+                        "circle1": "#35478C",
+                        "circle2": "#167F39",
+                        "circle3": "#CC211B",
+                        "circle4": "#FF822E",
+                        "circle5": "#FFEC56"
+                    },
+                    "altMobileContent": {
+                        "altImageFile": "https:\/\/real.rapidintake.com\/sample_image.jpg",
+                        "altImgPos": "left",
+                        "altImageWidth": 40,
+                        "altNType": "none"
+                    },
+                    "html5Text": {
+                        "#text": "<p><span style=\"font-size: large;\"><strong>Environmentally Friendly<\/strong><\/span><br \/><img style=\"border: 1px solid black;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/classroom-video-conferencing-1.jpg\" alt=\"\" width=\"90%\" \/><\/p><p><strong>How Your Communication Effects Others<br \/><\/strong>Do you have virtual office space in Second Life yet, or do you have your Bluetooth permanently attached to your ear? To be environment friendly when communicating professionally means to be aware of what&rsquo;s around you and who can hear you or your device.<br \/><br \/><\/p><table style=\"margin-left: 10px; margin-right: 5px;\" border=\"0\"><tbody><tr><td style=\"background-color: #9c9b9b;\"><p><strong>Alerts<br \/><\/strong>When working within earshot of other people, turn off your audio alerts. As entertaining as you may think your creative sounds are, other people will quickly get annoyed when they hear \"whoosh\" or \"ding\" multiple times throughout the day.<\/p><p>Visual alerts and silent mode are much more environmentally friendly.<br \/><img style=\"border: 1px solid black;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/message.jpg\" alt=\"\" \/><\/p><\/td><\/tr><tr><td><p><strong>Video Conferencing<\/strong><\/p><ul><li>Do a quick mirror check to make sure you&rsquo;re presentable<\/li><li>Wear appropriate attire that does not distract<\/li><li>Remove any distractions from your background<\/li><li>Reduce as much surrounding commotion as possible before beginning\n<ul><li>Close doors<\/li><li>Turn off ringers<\/li><li>Put your dog out<\/li><\/ul><\/li><\/ul><\/td><\/tr><tr><td style=\"background-color: #9c9b9b;\"><p><strong>Texting<\/strong><\/p><ul><li>Use silent mode when other people are around<\/li><li>Don&rsquo;t use txtspk in the workplace<\/li><li>Don&rsquo;t text and drive<\/li><li>Don&rsquo;t text and walk in public<\/li><\/ul><p>Texting is becoming one of the most popular methods of communication because of its convenience. For that reason, it is important that we are considerate of others when sending and receiving text messages.&nbsp;<\/p><\/td><\/tr><tr><td><p><strong>Screen Sharing<\/strong><\/p><ul><li>Consider your desktop pictures or icons before sharing your screen with a client<\/li><li>Screen savers can be entertaining but may distract your audience<\/li><\/ul><p><img src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/Funny_wallpapers_Contact_Evolution_014169_.jpg\" alt=\"\" width=\"80%\" \/><br \/><br \/><\/p><\/td><\/tr><tr><td style=\"background-color: #9c9b9b;\"><p><strong>Email\/Instant Messaging (IM)<\/strong><\/p><ul><li>Respond in a reasonable time frame<\/li><li>Change your availability status or add an \"Out-of-Office\" response<\/li><li>Save emotional communication for face-to-face<\/li><li>Consider the length:\n<ul><li>IM = 1-2 sentences max<\/li><li>email = 2-3 paragraphs max<\/li><li>attachment =&nbsp; 4+ paragraphs, 2 MB max (ask permission to send anything larger or send them a link for downloading)<\/li><\/ul><\/li><\/ul><p><img style=\"border: 1px solid black;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/TextingWhileDrivingCartoon.jpg\" alt=\"\" width=\"70%\" \/><\/p><\/td><\/tr><\/tbody><\/table><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p>"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">Do you have virtual office space in Second Life yet, or do you have your Bluetooth permanently attached to your ear?<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">To be environment friendly when communicating professionally means to be aware of what\u2019s around you and who can hear you or your device.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">In this interaction you&apos;ll explore how to be environmentally friendly by clicking on each of the circles. Click start to begin.<\/P>"
+                    },
+                    "sourceType": "static",
+                    "title": "Environmentally Friendly",
+                    "pType": "ConcentricCircles",
+                    "file": "swfs\/templateswfs\/adv_int\/rapidintake_concentriccircles\/rapidintake_concentriccircles.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/adv_int\/rapidintake_concentriccircles\/rapidintake_concentriccircles.swf|0"
+                },
+                {
+                    "pText": {
+                        "#text": "<P style=\"text-align:LEFT\">This page contains an external activity. When you are ready to begin, click the Start button.<\/P>"
+                    },
+                    "title": "Don't Click Send!",
+                    "pType": "PopupExternalActivity",
+                    "scrollbars": false,
+                    "headerText": "External Activity",
+                    "btnText": "START ACTIVITY",
+                    "file": "swfs\/templateswfs\/rapidintake_popupactivity\/ri_popupactivity_pg.swf",
+                    "loadPercentage": 0,
+                    "fspec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "linkPath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/NoSend\/index.html",
+                    "winW": 800,
+                    "winH": 600,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_popupactivity\/ri_popupactivity_pg.swf|0"
+                }
+            ],
+            "title": "Presentation",
+            "objectiveID": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 1
+        },
+        {
+            "page": [
+                {
+                    "sourceType": "static",
+                    "title": "Test Your Professional eSPK",
+                    "pType": "Quiz",
+                    "file": "swfs\/quiz.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/quiz.swf|0",
+                    "feedback": {
+                        "provide": true
+                    },
+                    "printMessage": {
+                        "#text": "<P style=\"text-align:LEFT\">You&apos;ve completed the quiz! You can use the buttons below to print your results, email your results, or review and retake the quiz.<\/P>"
+                    },
+                    "introText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\">The purpose of this quiz is to help you determine if you have mastered the objectives in the Professional eSPK lesson:<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\">\u2022 Identify the best communication device to use in a given scenario<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\">\u2022 Recognize how you can communicate better by knowing your personal communication style<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\">\u2022 Categorize communication as professional or unprofessional<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\">\u2022 Choose the best ways to email professionally<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-family:'Verdana'; font-size:14px; color:#0B333C;\" LETTERSPACING=\"0\" KERNING=\"0\"><B>Note<\/B>: During the quiz the Back button will be disabled, you will only be able to answer each question once, you must score 80% to pass, and you can retake the quiz after you review your results. <\/span><\/P><\/span><div class=\"override\"><\/div>",
+                        "heading": "Professional eSPK Quiz"
+                    },
+                    "question": [
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "Webinar",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Cell Phone",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "FaceTime \/ Skype \/ Google + Hangout",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Text"
+                                    },
+                                    {
+                                        "#text": "Conference Call",
+                                        "correct": true
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "evalPrompt": {
+                                    "#text": "Click Check Answer when you are done."
+                                },
+                                "initPrompt": {
+                                    "#text": "Click all that answers apply."
+                                },
+                                "correctFeedback": {
+                                    "#text": "Yes, you're right!"
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "No. Texting is the only method of communication that would not be appropriate in this scenario."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Click the image to assess your audience. If you know they are from a different country, are interested in learning about your company and product, which mode(s) of communication will be appropriate to use?<\/P>"
+                            },
+                            "qtype": "MCIMAGE",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "imageFile": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/women.png",
+                            "title": "MultCorrectImg_Audience (MCIMAGE) (Copy)",
+                            "questionId": "MultCorrectImg_Audience",
+                            "tries": 1
+                        },
+                        {
+                            "feedback": {
+                                "initPrompt": {
+                                    "#text": "Click True or False then click Check Answer."
+                                },
+                                "evalPrompt": {
+                                    "#text": "Click Check Answer."
+                                },
+                                "correctFeedback": {
+                                    "#text": "That's right, knowing your communication style will help you communicate more professionally."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. Knowing your communication style will help you communicate more professionally."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\"><B>True or False<\/B>: Knowing your <span LEADING=\"2\"><span style=\"color:#0000FF;\"><A HREF=\"http:\/\/www.communication-styles.com\/communication-style-survey-instructions.html\" TARGET=\"_blank\"><U>communication style<\/U><\/A><\/span><span style=\"color:#0B333C;\"><\/span><\/span> strength and weaknesses will help you communicate more professionally. For example, if your style is Controller, you can communicate better by listening more, allowing time for small talk, and showing interest in your audience. <\/P>"
+                            },
+                            "qtype": "TF",
+                            "correctResp": true,
+                            "resetBtn": false,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "title": "TF_CommStyle (TF) (Copy)",
+                            "questionId": "TF_CommStyle",
+                            "tries": 1
+                        },
+                        {
+                            "feedback": {
+                                "evalPrompt": {
+                                    "#text": "Click Check Answer when you are done, or Reset to start over."
+                                },
+                                "initPrompt": {
+                                    "#text": "Click all that apply."
+                                },
+                                "correctFeedback": {
+                                    "#text": "That's right."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. All of these are things you should test before giving your presentation."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Click all the items you should test before giving a boardroom presentation with a laptop and projector.<\/P>"
+                            },
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/cables.jpg",
+                                        "correct": true
+                                    },
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/laptop.jpg",
+                                        "correct": true
+                                    },
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/PresentationClicker.png",
+                                        "correct": true
+                                    },
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Projector.jpg",
+                                        "correct": true
+                                    },
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/screen.jpg",
+                                        "correct": true
+                                    },
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/speakers.jpg",
+                                        "correct": true
+                                    },
+                                    {
+                                        "filepath": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/powerCord.jpg",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "qtype": "HOIMAGE",
+                            "randomize": true,
+                            "resetBtn": true,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "title": "imgMC_KnowTool (HOIMAGE) (Copy)",
+                            "questionId": "imgMC_KnowTool",
+                            "tries": 1
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "Power off your phone when it is not in use.",
+                                        "iFeedback": "No. Though this will save power, it will not help communicate professionally."
+                                    },
+                                    {
+                                        "#text": "Be aware of what's around you when you're communicating.",
+                                        "correct": true,
+                                        "iFeedback": "That's right."
+                                    },
+                                    {
+                                        "#text": "Dispose of your cell phone battery at an approved recycling facility.",
+                                        "iFeedback": "No. Though this will help save our earth, it will not help you communicate more professionally."
+                                    },
+                                    {
+                                        "#text": "All of the above.",
+                                        "iFeedback": "No. Only one of the other answers is correct."
+                                    }
+                                ],
+                                "randomize": false
+                            },
+                            "feedback": {
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">What does it mean to be environmentally friendly when communicating professionally?<\/P>"
+                            },
+                            "qtype": "MCHIMAGE",
+                            "overrideFeedback": false,
+                            "tracking": true,
+                            "imageFile": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/walkText.jpg",
+                            "title": "MCimg_EnvironFriendly (MCHIMAGE) (Copy)",
+                            "questionId": "MCimg_EnvironFriendly",
+                            "tries": 1
+                        },
+                        {
+                            "dragobjects": {
+                                "textelement": [
+                                    {
+                                        "#text": "\u2022 Using mute when listening in on a webinar.",
+                                        "matchelement": 1
+                                    },
+                                    {
+                                        "#text": "\u2022 Humorous desktop picture visible during screen share",
+                                        "matchelement": 2
+                                    },
+                                    {
+                                        "#text": "\u2022 Answer text messages while in a meeting with a client",
+                                        "matchelement": 2
+                                    },
+                                    {
+                                        "#text": "\u2022 Reduce background noise before video conference",
+                                        "matchelement": 1
+                                    },
+                                    {
+                                        "#text": "\u2022 Audio alerts in the workplace are OK if they\u2019re quiet",
+                                        "matchelement": 2
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Categorize each communication example as Professional or Unprofessional.<\/P>"
+                            },
+                            "qtype": "DDTASK",
+                            "resetBtn": true,
+                            "overrideFeedback": false,
+                            "tracking": true,
+                            "target1": "Professional",
+                            "target2": "Unprofessional",
+                            "draghead": "eMail Characteristics",
+                            "title": "DD_EnvironFriendly (DDTASK) (Copy)",
+                            "questionId": "DD_EnvironFriendly",
+                            "tries": 1
+                        },
+                        {
+                            "responses": {
+                                "response": [
+                                    {
+                                        "#text": "ask",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "try",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "test",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "learn",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "tryout",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "That's right, you should play it safe and test your presentation on the conference center devices before presenting."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "You missed something. You should play it safe and test your presentation on the conference center devices before presenting."
+                                },
+                                "evalPrompt": {
+                                    "#text": "Click Check Answer when you are done typing your response."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">You were just asked to give a PowerPoint presentation at a seminar. What should you do to prepare if you have to use the conference center\u2019s laptop, projector, and speaker system for your presentation? <\/P>"
+                            },
+                            "qtype": "ESSAY",
+                            "exactMatch": false,
+                            "caseSensitive": false,
+                            "otherRespCorrect": false,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "title": "Essay_KnowTool (ESSAY) (Copy)",
+                            "questionId": "Essay_KnowTool",
+                            "tries": 1
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "Don\u2019t send anything you don\u2019t want printed and shared.",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Ask email recipients if it\u2019s OK before sending large email attachments.",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Using \u201cplease\u201d and \u201cthank you\u201d are too formal for emails."
+                                    },
+                                    {
+                                        "#text": "Your signature is a good place to add additional notes or an added sales pitch."
+                                    },
+                                    {
+                                        "#text": "Using email is a good idea if you are too emotional to communicate face-to-face."
+                                    },
+                                    {
+                                        "#text": "Always review your email before clicking send because your intelligence will be judged by how well or poorly you write.",
+                                        "correct": true,
+                                        "wrap": true
+                                    }
+                                ],
+                                "randomize": false
+                            },
+                            "feedback": {
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Select all the ways that you can improve your professional communication with email.<\/P>"
+                            },
+                            "qtype": "MCIMAGE",
+                            "overrideFeedback": false,
+                            "tracking": true,
+                            "imageFile": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/attach.jpg",
+                            "title": "MultCorrect_email (MCIMAGE) (Copy)",
+                            "questionId": "MultCorrect_email",
+                            "tries": 1
+                        }
+                    ],
+                    "quizmode": "test",
+                    "randomize": false,
+                    "showresults": true,
+                    "reportScore": true,
+                    "incReview": true,
+                    "incRetakeButton": true,
+                    "number_questions": true,
+                    "includeIntro": true,
+                    "recordStatus": "passIncomplete",
+                    "minscore": 0,
+                    "maxscore": 100,
+                    "passComplete": true,
+                    "failIncomplete": false,
+                    "print_results": false,
+                    "email_results": true,
+                    "useServer": true,
+                    "serverURL": "http:\/\/www.rapidintake.net\/send_email.asp",
+                    "LMS_name": true,
+                    "incQuizTitle": true,
+                    "numquestions": 7,
+                    "useSubset": true,
+                    "passingScore": 80,
+                    "emailSubject": "Quiz Results for Professional eSPK Lesson...",
+                    "sendToEmail": "andrechatelain@rapidintake.com",
+                    "intro": "intro",
+                    "tries": 1
+                },
+                {
+                    "html5Text": {
+                        "#text": "<p style=\"margin-left: 10px;\"><span style=\"font-size: large;\"><strong>What Is Your Modus Communicandi?<\/strong><\/span><\/p>\n<table style=\"border: 1px solid #141414; background-color: #ffffff; margin-left: 30px; height: 364px; width: 343px;\" border=\"1\" frame=\"border\" cellspacing=\"1\">\n<tbody style=\"margin-left: 30px;\">\n<tr style=\"margin-left: 10px;\">\n<td style=\"margin-left: 10px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/andrechatelain.rapidintake.comhttps:\/\/demo.litmosauthor.com\/access\/stockmedia\/10_013_david_s.png\" alt=\"\" width=\"118\" height=\"306\" \/><\/td>\n<td style=\"margin-left: 10px;\" vstyle=\"text-align:bottom\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/andrechatelain.rapidintake.comhttps:\/\/demo.litmosauthor.com\/access\/stockmedia\/52_013b_david3_s.png\" alt=\"\" width=\"179\" height=\"288\" \/><\/td>\n<\/tr>\n<tr style=\"margin-left: 30px;\">\n<td style=\"background-color: #656464;\"><span style=\"font-size: large; color: #ffffff;\"><strong>PROFESSIONAL<\/strong><\/span><\/td>\n<td style=\"background-color: #656464;\"><span style=\"font-size: large; color: #ffffff;\"><strong>UNPROFESSIONAL<\/strong><\/span><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p style=\"margin-left: 10px;\">Test your <a href=\"asfunction:glossary,Netiquette\">netiquette<\/a> skills by categorizing the communication scenarios below. After reading each example, tap Professional or Unprofessional.<\/p>\n<table style=\"width: 100%;\" border=\"0\">\n<tbody>\n<tr>\n<td style=\"background-color: #9c9b9b;\" colspan=\"2\"><strong>SCENARIO 1<br \/><\/strong><span>Bob sent an instant message to a coworker before leaving for the day. He said, &ldquo;thx 4 ur help 2day ;) BRB&rdquo;.<\/span><\/td>\n<\/tr>\n<tr>\n<td style=\"background-color: #9c9b9b; text-align: center;\"><span>(A)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_1\"><span>Professional<\/span><\/a><\/span><\/span><\/td>\n<td style=\"background-color: #9c9b9b; text-align: left;\"><span>(B)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_Correct\"><span>Unprofessional<\/span><\/a><\/span><\/span><\/td>\n<\/tr>\n<tr>\n<td colspan=\"2\"><strong>SCENARIO 2<br \/><\/strong>Karen left a voicemail for her boss. &ldquo;Hi Tom it&rsquo;s Karen. I came down with a bad cold and won&rsquo;t be able to come into work today.&nbsp; I&rsquo;ll let you know this afternoon if I&rsquo;m able to come in tomorrow. You can reach me at #. Good-bye.&rdquo;<\/td>\n<\/tr>\n<tr>\n<td style=\"text-align: center;\"><span>(A)&nbsp;<\/span><a href=\"asfunction:glossary,Pretest_2\">Professional<\/a><\/td>\n<td style=\"text-align: left;\">(B)&nbsp;<a href=\"asfunction:glossary,Pretest_2\">Unprofessional<\/a><\/td>\n<\/tr>\n<tr>\n<td style=\"background-color: #9c9b9b;\" colspan=\"2\"><strong>SCENARIO 3<br \/><\/strong><span>Kim participated in a conference call from home in his pajamas. The meeting went well and the client was happy with the progress Kim was making on their project.<\/span><\/td>\n<\/tr>\n<tr>\n<td style=\"background-color: #9c9b9b; text-align: center;\"><span>(A)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_Correct\"><span>Professional<\/span><\/a><\/span><\/span><\/td>\n<td style=\"background-color: #9c9b9b; text-align: left;\"><span>(B)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_3\"><span>Unprofessional<\/span><\/a><\/span><\/span><\/td>\n<\/tr>\n<tr>\n<td colspan=\"2\"><strong>SCENARIO 4<br \/><\/strong>John felt very good about the webinar he hosted from work at work. He spent 10 minutes giving a thorough introduction of his role in the company and filled the remaining time with a powerfully packed sales presentation.<\/td>\n<\/tr>\n<tr>\n<td style=\"text-align: center;\"><span>(A)&nbsp;<\/span><a href=\"asfunction:glossary,Pretest_4\">Professional<\/a><\/td>\n<td>(B)&nbsp;<a href=\"asfunction:glossary,Pretest_Correct\">Unprofessional<\/a><\/td>\n<\/tr>\n<tr>\n<td style=\"background-color: #9c9b9b;\" colspan=\"2\">\n<table border=\"0\">\n<tbody>\n<tr>\n<td colspan=\"2\"><strong>SCENARIO 5<br \/><\/strong>Madison sent a text message reminder to her sales team. &ldquo;Don&rsquo;t forget lunch today, 1 pm @ Gandolfos&rdquo;.<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/td>\n<\/tr>\n<tr>\n<td style=\"background-color: #9c9b9b; text-align: center;\"><span>&nbsp;(A)&nbsp;<\/span><span><a href=\"asfunction:glossary,Pretest_Correct\"><span>Professional<\/span><\/a><\/span><\/td>\n<td style=\"background-color: #9c9b9b;\"><span>(B)&nbsp;<\/span><span><span><a href=\"asfunction:glossary,Pretest_5\"><span>Unprofessional<\/span><\/a><\/span><\/span><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>"
+                    },
+                    "title": "WYSIWYG Page",
+                    "pType": "CustomHTML5Page",
+                    "sourceType": "static",
+                    "file": "swfs\/pagetemplates\/none.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/pagetemplates\/none.swf|0"
+                }
+            ],
+            "title": "Challenge",
+            "objectiveID": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 2
+        },
+        {
+            "page": [
+                {
+                    "html5Text": {
+                        "#text": "<p>&nbsp;<\/p><table border=\"0\" cellpadding=\"10\"><tbody><tr><td><img src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Original\/Logo_RapidIntake.png\" alt=\"\" width=\"98%\" \/><\/td><\/tr><tr><td><div style=\"position: absolute; width: 100%; height: 305px; background-color: #000000; opacity: .2;\">&nbsp;<\/div><iframe style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/credits\/index.html\" frameborder=\"0\" width=\"405\" height=\"305\"><\/iframe><\/td><\/tr><tr><td><img style=\"float: right;\" src=\"https:\/\/andrechatelain.rapidintake.com\/access\/Media\/image00101.png\" alt=\"\" \/><\/td><\/tr><\/tbody><\/table><p>&nbsp;<\/p><p>&nbsp;<\/p><p>&nbsp;<\/p><p style=\"text-align: left;\">&nbsp;<\/p><p style=\"text-align: left;\">&nbsp;<\/p><p style=\"text-align: left;\">&nbsp;<\/p><p style=\"text-align: left;\">&nbsp;<\/p>"
+                    },
+                    "title": "Credits",
+                    "pType": "CustomHTML5Page",
+                    "sourceType": "static",
+                    "file": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Credits.swf",
+                    "autoPlayMedia": true,
+                    "resizeSWF": false,
+                    "keepProportions": false,
+                    "loadPercentage": 50,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "sendPageComplete": false,
+                    "nonNavPage": false,
+                    "captivatePage": false,
+                    "engageSWF": false,
+                    "raptivity": false,
+                    "tabletHtml": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/JustText.html",
+                    "phoneHtml": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/credits\/index.html",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "https:\/\/andrechatelain.rapidintake.com\/access\/Media\/Credits.swf|0"
+                }
+            ],
+            "title": "Credits",
+            "objectiveID": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 3
+        }
+    ],
+    "leaf": false,
+    "tracking": "none",
+    "styleName": "Default Mobile",
+    "saturationPercent": 50,
+    "narration": true,
+    "glossary": true,
+    "audioButton": true,
+    "exitButton": false,
+    "noLink": true,
+    "pageNumbering": true,
+    "include_question_cnt": true,
+    "indexTooltip": true,
+    "transition": "wipe",
+    "tranDirection": "right",
+    "transitionTime": 2,
+    "completion": "completed",
+    "pageComplete": true,
+    "autoNavigation": false,
+    "backgroundColor": "#CCCCCC",
+    "buttonTextColor": "#FFFFFF",
+    "titleFieldColor": "#FFFFFF",
+    "footerColor": "#1E1c1c",
+    "indexHeader": "#33CC00",
+    "glossaryColor": "#C7C4BD",
+    "indexColor": "#C7C4BD",
+    "headerColor": "#33CC00",
+    "indexTopicColor": "#000000",
+    "indexLinkColor": "#33CC00",
+    "glossaryHeader": "#33CC00",
+    "buttonColor": "#D5D5D5",
+    "indexLinkOverColor": "#0000FF",
+    "title": "Professional eSPK",
+    "courseLogo": "https:\/\/demo.litmosauthor.com\/access\/Media\/litmosAuthor01.png",
+    "total": 0
+}

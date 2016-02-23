@@ -1,0 +1,274 @@
+{
+    "definitions": [
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">We recommend you access the <B>Definitions section<\/B> of the eRM for a complete list of terms. (See <span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"https:\/\/escore.litmosauthor.com\/access\/Media\/eScoreReferenceManual.pdf\" TARGET=\"_blank\"><U>eRM<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span>, page 59)<\/P>",
+                    "leaf": "true",
+                    "title": "-Glossary-"
+                }
+            ],
+            "text": "*",
+            "leaf": false,
+            "title": "*",
+            "numDef": 1
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">If you have downloaded Acrobat Reader onto your computer and need help opening the eRM with Acrobat Reader, follow these steps:<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">1.Right-click the eScore Reference Manual.pdf and select \u201cOpen with\u2026\u201d<\/P><P style=\"text-align:LEFT\">2.Select \u201cAdobe Reader\u201d<\/P><LI>If it isn\u2019t listed, and you know you\u2019ve downloaded it, click \u201cBrowse\u201d, locate the file Adobe\\Reader and click the \u201c.exe\u201d file<\/LI><LI>If you haven\u2019t downloaded Adobe Reader, click <span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"http:\/\/get.adobe.com\/reader\/\" TARGET=\"_blank\"><U>http:\/\/get.adobe.com\/reader\/<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span><\/LI>",
+                    "leaf": "true",
+                    "title": "Acrobat Reader"
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">A barrier that prevents infiltration of outdoor air into the conditioned space and exfiltration of indoor air to the outside. Also known as \u201cpressure boundary.\u201d The air barrier should be continuous and aligned with the thermal boundary.<\/P>",
+                    "leaf": "true",
+                    "title": "Air Barrier"
+                }
+            ],
+            "text": "A",
+            "leaf": false,
+            "title": "A",
+            "numDef": 2
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Any material that is used to bridge openings and provide structural support for a sealant that<\/P><P style=\"text-align:LEFT\">cannot support itself.<\/P>",
+                    "leaf": "true",
+                    "title": "Backer"
+                }
+            ],
+            "text": "B",
+            "leaf": false,
+            "title": "B",
+            "numDef": 1
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">areas or zones within a house that are heated or cooled for comfort<\/P>",
+                    "leaf": "true",
+                    "title": "Conditioned"
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Colorless, odorless, tasteless, and poisonous combustion byproduct that is lighter than air.<\/P>",
+                    "leaf": "true",
+                    "title": "Carbon Monoxide (CO)"
+                }
+            ],
+            "text": "C",
+            "leaf": false,
+            "title": "C",
+            "numDef": 2
+        },
+        {
+            "text": "D",
+            "leaf": false,
+            "title": "D",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">eScore\u2122 program document that includes: eScore\u2122 program description, Quality Contractor Network, eScore\u2122 logo terms of use, and energy upgrade brochures.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">The eRM is the <span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"https:\/\/escore.litmosauthor.com\/access\/Media\/eScoreReferenceManual.pdf\" TARGET=\"_blank\"><U>electronic version of the eScore\u2122 Reference Manual<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span>.<\/P>",
+                    "leaf": "true",
+                    "title": "eScore\u2122 Reference Manual (eRM)"
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">a person trained in building science curricula and certified by TVA as being adequately knowledgeable and capable of performing evaluations<\/P>",
+                    "leaf": "true",
+                    "title": "Evaluator"
+                }
+            ],
+            "text": "E",
+            "leaf": false,
+            "title": "E",
+            "numDef": 2
+        },
+        {
+            "text": "F",
+            "leaf": false,
+            "title": "F",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">a heat pump type that uses the thermal energy of the ground or ground water to provide residential space conditioning and\/or domestic water heating, including an Earth Coupled Heat Pump or Ground Water Source Heat Pump<\/P>",
+                    "leaf": "true",
+                    "title": "Geothermal Heat Pump"
+                }
+            ],
+            "text": "G",
+            "leaf": false,
+            "title": "G",
+            "numDef": 1
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">transfer of heat from outdoors to indoors by means of conduction, convection, radiation through all envelope surfaces of the house (e.g., walls, roof), and heat radiated inside the house by other sources such as lights, equipment, or people. The rate of heat gain during the cooling season depends on the thermal resistance of the house\u2019s envelope and the outdoor temperature. Many homes have excessive heat gain and use excessive cooling energy because of inadequate shading, excessive air leakage, inadequate insulation and internally generated heat<\/P>",
+                    "leaf": "true",
+                    "title": "Heat Gain"
+                },
+                {
+                    "definition": "<P style=\"text-align:LEFT\">a measure of the overall heating efficiency of a heat pump during an entire heating season. HSPF is calculated as the total BTU delivered in a heating season divided by the product of the kWhs consumed times 3413<\/P>",
+                    "leaf": "true",
+                    "title": "Heating Season Performance Factor (HSPF)"
+                }
+            ],
+            "text": "H",
+            "leaf": false,
+            "title": "H",
+            "numDef": 2
+        },
+        {
+            "text": "I",
+            "leaf": false,
+            "title": "I",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "J",
+            "leaf": false,
+            "title": "J",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "K",
+            "leaf": false,
+            "title": "K",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "L",
+            "leaf": false,
+            "title": "L",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "M",
+            "leaf": false,
+            "title": "M",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "N",
+            "leaf": false,
+            "title": "N",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">If you&apos;ve downloaded the eRM pdf but can&apos;t find it on your computer, follow these steps:<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\"><B>Windows<\/B><\/P><P style=\"text-align:LEFT\">1.Hold down the Windows Key then, at the same time, press the F key<\/P><P style=\"text-align:LEFT\">2.Type \u201ceScore\u201d<\/P><P style=\"text-align:LEFT\">3.Double-click the eScore Reference Manual.pdf<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\"><B>Mac<\/B><\/P><P style=\"text-align:LEFT\">1.Click Spotlight (magnifying glass icon, top-right)<\/P><P style=\"text-align:LEFT\">2.Type \u201ceScore\u201d<\/P><P style=\"text-align:LEFT\">3.Double-click the eScore Reference Manual.pdf<\/P><P style=\"text-align:LEFT\"><\/P>",
+                    "leaf": "true",
+                    "title": "Open eRM Help"
+                }
+            ],
+            "text": "O",
+            "leaf": false,
+            "title": "O",
+            "numDef": 1
+        },
+        {
+            "text": "P",
+            "leaf": false,
+            "title": "P",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "Q",
+            "leaf": false,
+            "title": "Q",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "R",
+            "leaf": false,
+            "title": "R",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "S",
+            "leaf": false,
+            "title": "S",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "T",
+            "leaf": false,
+            "title": "T",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "U",
+            "leaf": false,
+            "title": "U",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "V",
+            "leaf": false,
+            "title": "V",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Reductions in R-value of insulation, or physical displacement of insulation material, caused by air movement through insulation.<\/P>",
+                    "leaf": "true",
+                    "title": "Wind Washing"
+                }
+            ],
+            "text": "W",
+            "leaf": false,
+            "title": "W",
+            "numDef": 1
+        },
+        {
+            "text": "X",
+            "leaf": false,
+            "title": "X",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "text": "Y",
+            "leaf": false,
+            "title": "Y",
+            "numDef": 0,
+            "definitions": []
+        },
+        {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">Defined areas within a dwelling where the design conditions and\/or operating characteristics of the zone differ from adjoining areas in the same dwelling. Areas within a dwelling may have multiple zones whereby each is conditioned uniquely with respect to the other area (zones). Zoned areas typically each have their own thermostat and may be conditioned by a separate heating and cooling system.<\/P>",
+                    "leaf": "true",
+                    "title": "Zoned"
+                }
+            ],
+            "text": "Z",
+            "leaf": false,
+            "title": "Z",
+            "numDef": 1
+        }
+    ],
+    "total": 0
+}

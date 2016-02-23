@@ -1,0 +1,79 @@
+{
+    "questions": [
+        {
+            "intWeighting": 1,
+            "strLearningObjectiveID": "",
+            "casesensitive": false,
+            "submitResponse": true,
+            "response": {
+                "incorrect": {
+                    "seek": -1,
+                    "text": "<div id=\"incorrectResponse\" class=\"\" style=\"top: 75px; left: 115px; display: none; position: absolute;\"><div id=\"incorrectResponse_Text\" class=\"editable mce-content-body\" contenteditable=\"true\" spellcheck=\"false\" style=\"color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.6);\"><p>Incorrect<\/p><\/div><\/div>"
+                },
+                "correct": {
+                    "seek": -1,
+                    "text": "<div id=\"correctResponse\" class=\"\" style=\"top: 75px; left: 115px; display: none; position: absolute;\"><div id=\"correctResponse_Text\" class=\"editable mce-content-body\" contenteditable=\"true\" spellcheck=\"false\" style=\"color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.6);\"><p>Correct!<\/p><\/div><\/div>"
+                }
+            },
+            "timeLimit": "NaN",
+            "time": 2.3,
+            "randomizeDistractors": true,
+            "allowSkip": false,
+            "allowRetake": true,
+            "qType": "trueFalse",
+            "answered": false,
+            "distractors": [
+                {
+                    "correct": true,
+                    "text": "<input type=\"radio\" name=\"trueFalse\" id=\"distractor_0\" value=\"true\"><label for=\"distractor_0\">True<\/label>"
+                },
+                {
+                    "correct": false,
+                    "text": "<input type=\"radio\" name=\"trueFalse\" id=\"distractor_1\" value=\"false\"><label for=\"distractor_1\">False<\/label>"
+                }
+            ],
+            "answer": "el.trueFalse=='true'",
+            "submitButton": {
+                "position": {
+                    "y": 6,
+                    "x": "end"
+                },
+                "text": "Submit"
+            },
+            "continueButton": {
+                "position": {
+                    "y": 6,
+                    "x": "end"
+                },
+                "text": "Continue"
+            },
+            "questionText": {
+                "text": "<div id=\"questionResizable\" class=\"\" style=\"top: 75px; left: 115px; position: absolute;\"><div id=\"questionResizable_Text\" class=\"editable mce-content-body\" contenteditable=\"true\" spellcheck=\"false\" style=\"color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.6);\"><p>Question Text?<\/p><\/div><\/div>"
+            },
+            "title": "Question Text?",
+            "questionId": "Question-0"
+        }
+    ],
+    "config": {
+        "passingScore": 100,
+        "quizTitle": "Video Quiz",
+        "randomize": true
+    },
+    "video": {
+        "width": "",
+        "height": "",
+        "playlist": [
+            {
+                "file": "\/access\/Media\/00000extraordinaire_instrument_de_musique.mp4",
+                "image": "\/access\/Media\/0000000000000000brick_block1-Copy2.jpg",
+                "tracks": [
+                    {
+                        "file": "\/access\/projects\/2003494\/data\/questions.vtt",
+                        "kind": "chapters"
+                    }
+                ]
+            }
+        ],
+        "autostart": true
+    }
+}

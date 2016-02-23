@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions><quiz id="ktctvim_1ytagl9" includeIntro="true" quizmode="test" randomize="false" showresults="true" reportScore="true" incReview="true" incRetakeButton="false" number_questions="false" recordStatus="passFail" minscore="0" maxscore="100" passComplete="false" failIncomplete="false" print_results="false" email_results="false" useServer="false" serverURL="https://demo.litmosauthor.com/email/sendEmail/" LMS_name="false" incQuizTitle="false" intro="intro" passingScore="80"><feedback provide="true" tries="1">
+    <initPrompt>Select the most appropriate answer.</initPrompt>
+    <evalPrompt>Click the Check Answer button.</evalPrompt>
+    <correctFeedback>Correct.</correctFeedback>
+    <incorrectFeedback>Sorry, that is incorrect.</incorrectFeedback>
+  </feedback><introText>&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Your knowledge of the ______________ will now be evaluated through a series of questions. Please read each question carefully. Select the best possible answer from the available choices. Once you are satisfied with your answer, click on the &amp;quot;Next&amp;quot; button to proceed.&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#FF0000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="18" COLOR="#FF0000" LETTERSPACING="0" KERNING="0"&gt;Passing Grade: 80%&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;div class="override"&gt;&lt;/div&gt;</introText></quiz>
+</questions>

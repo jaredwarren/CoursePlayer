@@ -1,0 +1,1339 @@
+{
+    "page": [
+        {
+            "page": [
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">Hello and welcome to the eScore Reference Manual lesson. Navigating through this course is easy, just use the arrows at bottom-right side of the screen to go forward and back. Enjoy your eScore training. <\/P>"
+                    },
+                    "title": "Welcome",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er001Cover.png",
+                    "imgPos": "bottom center",
+                    "imageWidth": 96,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er001.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "file": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf|0"
+                },
+                {
+                    "title": "What is Your eScore",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/andrechatelain.litmosauthor.com\/access\/Media\/csg_WhyUpgrade.mp4",
+                    "mobileMediaPath": "https:\/\/andrechatelain.litmosauthor.com\/access\/Media\/csg_WhyUpgrade.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|0"
+                },
+                {
+                    "pText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Empowered with access to:<\/span><\/P><\/span><span LEADING=\"2\"><UL><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Rebate schedule<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">TVA Installation Standards<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Health and safety requirements<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Terms and definitions, and<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">So much more<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><\/UL><\/span><div class=\"override\"><\/div>"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The purpose of this course is to empower you with the tools you need to participate in the eScore\u2122 program.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">With the electronic version of the eScore\u2122 Reference Manual, or eRM, you will be able to quickly access the rebate schedule, TVA Installation Standards, Health and Safety requirements, terms and definitions, and so much more.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click next to begin.<\/P>"
+                    },
+                    "title": "Purpose",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er100ClickeRM.jpg",
+                    "imgPos": "left",
+                    "imageWidth": 50,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er100.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "nType": "none",
+                    "file": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf|0"
+                }
+            ],
+            "title": "Welcome",
+            "objectiveId": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 0
+        },
+        {
+            "page": [
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">We\u2019ve made the eRM easy for you to access wherever you\u2019re at:<\/P><UL><BR\/><LI>View it now from your lesson<\/LI><LI>Login to the portal and download it from the training reference panel, or<\/LI><LI>Open it on your eScore\u2122 phone or tablet<\/LI><\/UL><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">In addition, you\u2019ll receive a printed copy and other great resources at your scheduled classroom training.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click next.<\/P>"
+                    },
+                    "title": "How to Access the eRM",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er120.mp4",
+                    "mobileMediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er120.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|1"
+                },
+                {
+                    "pText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><B>Download Instructions<\/B><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">1. Go to your eScore\u2122 portal<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">2. Right-click eScore Reference Manual<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">    link and select:<\/span><\/P><\/span><span LEADING=\"2\"><UL><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">&quot;Save Link As...&quot;, or<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">&quot;Save target as...&quot;<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><\/UL><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">3. Open the eRM from your computer<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><B>HELP LINKS<\/B><\/span><\/P><\/span><span LEADING=\"2\"><UL><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0000FF;\"><A HREF=\"asfunction:glossary,Open eRM Help\" TARGET=\"_blank\"><U>Need help finding the eRM on your computer? <\/U><\/A><span style=\"font-face:''; font-size:10px; color:#0B333C;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0000FF;\"><A HREF=\"http:\/\/get.adobe.com\/reader\/\" TARGET=\"_blank\"><U>Need Acrobat Reader?<\/U><\/A><span style=\"font-face:''; font-size:10px; color:#0B333C;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0000FF;\"><A HREF=\"asfunction:glossary,Acrobat Reader\" TARGET=\"_blank\"><U>Need help opening the eRM with Acrobat Reader?<\/U><\/A><span style=\"font-face:''; font-size:10px; color:#0B333C;\"><\/span><\/span><\/LI><\/UL><\/span><div class=\"override\"><\/div>"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">As part of this lesson, you will need to download a copy of the eRM to your computer so you can perform the lesson exercises. To do this,<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">1.First, go to your eScore portal<\/P><P style=\"text-align:LEFT\">2.Second, right-click the eScore Reference Manual, select \u201cSave Link As\u2026\u201d or \u201cSave target as\u2026\u201d, and save it to your desktop, and <\/P><P style=\"text-align:LEFT\">3.Third, open the eRM from your computer<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">It\u2019s best to open the eRM using Acrobat Reader. Use the Help links to download Acrobat Reader or for more for instructions on how to open the eRM. <\/P>"
+                    },
+                    "title": "How to Download the eRM",
+                    "pType": "TextandVideo",
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er125.mp4",
+                    "mobileMediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er125.mp4",
+                    "mediaPos": "left",
+                    "autoPlayMedia": true,
+                    "nType": "none",
+                    "file": "swfs\/templateswfs\/rapidintake_textvideo\/ri_textvideo_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "captiontext": "",
+                    "captionhead": "",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_textvideo\/ri_textvideo_pg.swf|0"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">There are lots of ways to find what you need in the eRM PDF. The easiest way is to use the bookmarks. Here you can jump to the table of contents or any of the main pages.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">From the table of contents you can link to each section\u2026 and page. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">There are even hyperlinks within each page that will take you to some great resources like the Energy Star home page.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">If you\u2019re searching for specific words or standards, use the search function in Edit\u2026  then Find.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">As you could probably tell, the eRM is made up of a combination of several printed documents with their own printed page numbers. To make it easier navigate, this lesson will use the PDF page numbers instead of the printed page numbers.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">For example, a quiz question might reference the Climate Zones on eRM page 71. If you type 71 and press Enter, you can see a copy of the Climate Zones on eRM page 71. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click next to see if you can navigate the eRM.<\/P>"
+                    },
+                    "title": "How to Navigate the eRM",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er130.mp4",
+                    "mobileMediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er130.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|2"
+                },
+                {
+                    "title": "eRM Navigation Practice",
+                    "pType": "Quiz",
+                    "file": "swfs\/quiz.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/quiz.swf|0",
+                    "feedback": {
+                        "provide": true
+                    },
+                    "question": [
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "eRM Page 65"
+                                    },
+                                    {
+                                        "#text": "eRM Page 251",
+                                        "iFeedback": "",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "eRM Page 263"
+                                    },
+                                    {
+                                        "#text": "eRM Page 268"
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "initPrompt": {
+                                    "#text": "Locate the Energy Upgrade Sheets link in the table of contents (eRM pages 2-3)."
+                                },
+                                "mobileInitPrompt": {
+                                    "#text": "Locate the Energy Upgrade Sheets link in the table of contents (eRM pages 2-3)."
+                                },
+                                "correctFeedback": {
+                                    "#text": "Correct!"
+                                },
+                                "triesFeedback": {
+                                    "#text": "Incorrect, try again. You can find the Upgrade Sheets in the Collateral section of the eRM."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. The correct path is Bookmark > Collateral > Energy Upgrade Sheets > Air Sealing (eRM page 251)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Now it\u2019s your turn to start using the eRM. (1) Open the eScore\u2122 Reference Manual.pdf on your computer. (2) Use the bookmarks or table of contents to find which page the Air Sealing Energy Upgrade Sheet is on.<\/P>"
+                            },
+                            "qtype": "MCHIMAGE",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "imageFile": "https:\/\/andrechatelain.litmosauthor.com\/access\/Media\/Original\/AirSealingUpgrade.png",
+                            "questionId": "854lam0fhvffgq2",
+                            "tries": 2
+                        }
+                    ],
+                    "includeIntro": false,
+                    "quizmode": "review",
+                    "randomize": false,
+                    "showresults": false,
+                    "reportScore": false,
+                    "incReview": false,
+                    "incRetakeButton": false,
+                    "number_questions": false,
+                    "recordStatus": "none",
+                    "minscore": 0,
+                    "maxscore": 100,
+                    "passComplete": false,
+                    "failIncomplete": false,
+                    "print_results": false,
+                    "email_results": false,
+                    "useServer": false,
+                    "serverURL": "https:\/\/demo.litmosauthor.com\/email\/sendEmail\/",
+                    "LMS_name": false,
+                    "incQuizTitle": false,
+                    "numquestions": 1,
+                    "useSubset": false,
+                    "tries": 1
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">There are 4 main sections to the eRM:<\/P><UL><LI>Tab 1: Program Description<\/LI><LI>Tab 2: Quality Contractor Network Materials<\/LI><LI>Tab 3: TVA Standards, and<\/LI><LI>Fourth section is Collateral<\/LI><\/UL><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Though we\u2019ll not cover these sections in detail in this lesson, it\u2019s your responsibility to become familiar with the workings of the eScore\u2122 program and the TVA standards.<\/P>"
+                    },
+                    "title": "eRM Sections",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er150.mp4",
+                    "mobileMediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er150.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|3"
+                },
+                {
+                    "pText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">How the eScore\u2122 program works:<\/span><\/P><\/span><span LEADING=\"2\"><UL><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Homeowner evaluation options<\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">How participants qualify and initiate the evaluation or inspection<\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Rebate Schedule<\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Sample score card<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><\/UL><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:10px; color:#0B333C;\"><\/span><\/P><\/span><div class=\"override\"><\/div>"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">You will use the Program Description section of the eRM to quickly access how the eScore\u2122 program works including:<\/P><LI>The Homeowner evaluation options<\/LI><LI>How participants qualify and initiate the evaluation or inspection<\/LI><LI>The Rebate Schedule, and<\/LI><LI>Sample score card<\/LI>"
+                    },
+                    "title": "eRM \u2013 Program Description",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er152.jpg",
+                    "imgPos": "left",
+                    "imageWidth": 50,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er152.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "nType": "none",
+                    "file": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf|1"
+                },
+                {
+                    "pText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Quality Contractor Network Materials:<\/span><\/P><\/span><span LEADING=\"2\"><UL><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Requirements for joining the QCN<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Privileges of membership, including use of TVA logos and eScore Rewards<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Requirements to stay a member, and<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">The Removal process for not meeting the requirements<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><\/UL><\/span><span LEADING=\"2\"><BR\/><\/span><div class=\"override\"><\/div>"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The Quality Contractor Network Materials section will give you specifics on: <\/P><LI>Requirements for joining the QCN<\/LI><LI>Privileges of membership, including use of TVA logos and eScore Rewards<\/LI><LI>Requirements to stay a member, and<\/LI><LI>The Removal process for not meeting the requirements<\/LI>"
+                    },
+                    "title": "eRM \u2013 QCN Materials",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er153.jpg",
+                    "imgPos": "right",
+                    "imageWidth": 50,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er153.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "nType": "none",
+                    "file": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf|2"
+                },
+                {
+                    "pText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">TVA Standards section:<\/span><\/P><\/span><span LEADING=\"2\"><UL><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Inspection and scoring process<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Qualified materials and products<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Health and safety<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><LI><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">Five primary areas of inspection<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/LI><\/UL><\/span><span LEADING=\"2\"><BR\/><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:10px; color:#0B333C;\"><\/span><\/P><\/span><div class=\"override\"><\/div>"
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The TVA Standards section is the largest part of the eRM and will provide you with detailed information on:<\/P><LI>The inspection and scoring process<\/LI><LI>Qualified materials and products<\/LI><LI>Health and safety, and the<\/LI><LI>Five primary areas of inspection<\/LI>"
+                    },
+                    "title": "eRM \u2013 TVA Standards",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er154.jpg",
+                    "imgPos": "right",
+                    "imageWidth": 53,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er154.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "nType": "none",
+                    "file": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_textimageaudio\/ri_textimageaudio_pg.swf|3"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The last section is Collateral. This is where you\u2019ll find the requirements for using the TVA and eScore\u2122 logos and see all 10 of the Energy Upgrade sheets for each point of inspection.<\/P>"
+                    },
+                    "title": "eRM \u2013 Collateral",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er155.jpg",
+                    "imgPos": "center",
+                    "imageWidth": 100,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er155.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "file": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf|1"
+                }
+            ],
+            "title": "eRM Overview",
+            "objectiveId": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 1
+        },
+        {
+            "page": [
+                {
+                    "instructionText": {
+                        "#text": "<P style=\"text-align:LEFT\">For your convenience we will provide you with a few different formats of the TVA Standards.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click each image to learn more about the four different formats of standards. When you have viewed all four, click next to move on.<\/P>"
+                    },
+                    "mobileInstructionText": {
+                        "#text": "<P style=\"text-align:LEFT\">For your convenience we will provide you with a few different formats of the TVA Standards.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Tap each image to learn more about the four different formats of standards. When you have viewed all four, click next to move on.<\/P>"
+                    },
+                    "image1text": {
+                        "#text": "<P style=\"text-align:LEFT\">In addition to the eRM, you will receive a printed binder that will include ALL the installation requirements and the alpha-numeric upgrade codes e.g. ASL-09, ASL-22, etc. (<span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"https:\/\/escore.litmosauthor.com\/access\/Media\/eScoreReferenceManual.pdf\" TARGET=\"_blank\"><U>PDF<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span>)<\/P>"
+                    },
+                    "image2text": {
+                        "#text": "<P style=\"text-align:LEFT\">This conveniently sized printed book is a little more portable (8.5\u201d x 5.5\u201d). In it you\u2019ll have a summary of the TVA Standards, matching Upgrade Codes, and helpful formulas, procedures and photos. (<span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"https:\/\/escore.litmosauthor.com\/access\/Media\/csg_027TVAInspectionFieldGuideDecoupledDRAFT_SmallBook.pdf\" TARGET=\"_blank\"><U>PDF<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span>)<\/P>"
+                    },
+                    "image3text": {
+                        "#text": "<P style=\"text-align:LEFT\">These are single-page printed brochures that summarize each of the 10 energy upgrades. The front-side answers the question, \u201cWhy should I upgrade?\u201d. The backside answers the question, \u201cHow should it be done?\u201d i.e. what are the requirements for installing the energy upgrades. (<span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"https:\/\/escore.litmosauthor.com\/access\/Media\/csg_011EnergyUpgradeBrochures.pdf\" TARGET=\"_blank\"><U>PDF<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span>)<\/P>"
+                    },
+                    "image4text": {
+                        "#text": "<P style=\"text-align:LEFT\">Here is a handy pocket-sized checklist for each upgrade. The front-side shows a high-level list of requirements and the backside gives you the required data points that need to be met before submitting an application. (<span LEADING=\"2\"><span style=\"font-face:''; font-size:px; color:#0000FF;\"><A HREF=\"https:\/\/escore.litmosauthor.com\/access\/Media\/csg_028ContractorChecklists.pdf\" TARGET=\"_blank\"><U>PDF<\/U><\/A><\/span><span style=\"font-face:''; font-size:px; color:#0B333C;\"><\/span><\/span>)<\/P>"
+                    },
+                    "title": "TVA Standards Documents",
+                    "pType": "ImageMouseover",
+                    "borderSize": "medium",
+                    "file": "swfs\/templateswfs\/rapidintake_imagerollover\/rapidintake_imagerollover.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "image1": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er160_2.jpg",
+                    "image1caption": "eScore\u2122 Reference Manual",
+                    "image2caption": "Inspection Field Guide",
+                    "image2": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er160_3.jpg",
+                    "image3": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er160_4.jpg",
+                    "image3caption": "Energy Upgrade Sheets",
+                    "image4caption": "eScore\u2122 Checklists",
+                    "image4": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er160_5.jpg",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_imagerollover\/rapidintake_imagerollover.swf|0"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The TVA Standards section of the eRM defines the standards and best practices that support the safe and effective installation of energy upgrades in existing homes.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">While it is not a requirement for you to memorize the standards document, it is essential that you become familiar with it so that you can use it and reference it efficiently. Here are some of the key points to help you \u2013<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Know that in the document, requirements using the word \u201cshall\u201d, mean that the action specified is mandatory and must be done by the QCN member.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">When \u201cshould\u201d or \u201crecommend\u201d are used, know that QCN members are encouraged, but not required, to follow the best practices for installing the applicable energy upgrades. The best practices text will also be italicized.<\/P><P style=\"text-align:LEFT\">Important terms are underlined throughout the document and are explained in greater detail on the Definitions pages.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click next to learn about the new scoring system for the inspection process.<\/P>"
+                    },
+                    "title": "TVA Standards",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er170.flv",
+                    "mobileMediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er170.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|4"
+                },
+                {
+                    "instructionText": {
+                        "#text": "<P style=\"text-align:LEFT\">This activity will help you become familiar with the inspection process scoring system. Place you cursor over each score to see its definition. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">When you have the scoring definitions memorized, click Practice to test yourself by dragging-and-dropping the inspection score onto the matching definition.<\/P>"
+                    },
+                    "instructionTextDD": {
+                        "#text": "<P style=\"text-align:LEFT\">Let&apos;s see how well you know the inspection scores. Drag the score to the correct definition.<\/P>"
+                    },
+                    "reviewMobileInst": {
+                        "#text": "<P style=\"text-align:LEFT\">This activity will help you become familiar with the inspection process scoring system. Tap the inspection scores to see their definitions. When you have them memorized, tap the Practice button to test yourself.<\/P>"
+                    },
+                    "practiceMobileInst": {
+                        "#text": "<P style=\"text-align:LEFT\">Let&apos;s see how well you know the inspection scores. Tap a inspection score and then tap the matching definition below.<\/P>"
+                    },
+                    "definitionsText": {
+                        "defText": [
+                            {
+                                "#text": "The installation passes the TVA standards and the installation was completed according the rebate request.",
+                                "term": "P1"
+                            },
+                            {
+                                "#text": "The installation passes TVA Standards but the inspector had to provide technical assistance to the QCN member to correct deficiencies.",
+                                "term": "P2"
+                            },
+                            {
+                                "#text": "The installation failed. The inspector identified minor problems that have only minor impacts on the savings or overall quality of the installation.",
+                                "term": "F3"
+                            },
+                            {
+                                "#text": "The installation failed and there is an urgent response needed. Items in this area include major problems with the quality of the job, dangerous conditions, or inaccurate and misleading rebate documentation.",
+                                "term": "F4"
+                            }
+                        ]
+                    },
+                    "title": "TVA Standards Scoring System",
+                    "pType": "Definitions",
+                    "termsColor": "#9BC2E3",
+                    "rollverColor": "#D07E2C",
+                    "textcolor": "#FFFFFF",
+                    "textreviewcolor": "#FFFFFF",
+                    "file": "swfs\/templateswfs\/rapidintake_definitions\/definitions.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_definitions\/definitions.swf|0"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">Next in the TVA Standards section is the list of specific products that may be used in the program. Note that this list is not exclusive and, with TVA approval, QCN members may use other products such as different types of sealants, insulation materials, attic hatch covers, duct mastic, and many others.<\/P>"
+                    },
+                    "title": "Qualified Materials and Products",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er175.jpg",
+                    "imgPos": "center",
+                    "imageWidth": 100,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er175.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "file": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf|2"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The Health and Safety section begins with the health and safety requirements regarding combustion appliances, lead, etc., and then includes best practices when dealing with hazardous situations and materials.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">These TVA Standards are based on an extensive list of nationally recognized standards and best practices.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Click Next to preview the 5 primary sections of the TVA Standards.<\/P>"
+                    },
+                    "title": "Health and Safety",
+                    "pType": "TextPage",
+                    "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er177.jpg",
+                    "imgPos": "center",
+                    "imageWidth": 100,
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er177.mp3",
+                    "autoPlayMedia": true,
+                    "mediaFormat": "MP3",
+                    "file": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_imageaudio\/ri_imageaudio_pg.swf|3"
+                },
+                {
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">The 5 primary sections of the TVA Standards are:<\/P><UL><LI>Air Sealing<\/LI><LI>Insulation<\/LI><LI>Windows and Doors<\/LI><LI>Water Heater, and <\/LI><LI>Heating and Cooling<\/LI><\/UL><P style=\"text-align:LEFT\">As you can see, each section begins with the upgrade requirements that summarize the entire section. Typically this may be all that you need for most jobs.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Another helpful hint is, when you view the TVA Standards table of contents, all the rebate upgrades are bolded like this. Simply click an upgrade requirement from the table of contents and you\u2019ll be linked to the standard specifications that you need. <\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">That\u2019s how get around the eRM and the TVA Standards. Click next when you\u2019re ready to test you what you\u2019ve learned.<\/P>"
+                    },
+                    "title": "5 Primary Sections of TVA Standards",
+                    "pType": "Video",
+                    "mediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er180.flv",
+                    "mobileMediaPath": "https:\/\/escore.litmosauthor.com\/access\/Media\/er180.mp4",
+                    "mediaPos": "center",
+                    "autoPlayMedia": true,
+                    "file": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf",
+                    "loadPercentage": 20,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "mediaFormat": "FLV",
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/rapidintake_video\/ri_video_pg.swf|5"
+                },
+                {
+                    "title": "eRM Summary Challenge 1",
+                    "pType": "Quiz",
+                    "file": "swfs\/quiz.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/quiz.swf|1",
+                    "feedback": {
+                        "correctFeedback": {
+                            "#text": "Good. Click next to test your ability to reference the eRM quickly."
+                        },
+                        "provide": true
+                    },
+                    "introText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\">The purpose of this challenge is to help you determine if you have mastered the objectives in the eScore\u2122 Reference Manual lesson:<\/span><\/P><\/span><span LEADING=\"2\"><LI><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\"><\/span><\/LI><\/span><span LEADING=\"2\"><LI><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\">Download and view the eRM<\/span><\/LI><\/span><span LEADING=\"2\"><LI><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\">Locate and identify specific upgrades on the eScore\u2122 Participant Rebate Schedule<\/span><\/LI><\/span><span LEADING=\"2\"><LI><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\">Use the eRM to list the new inspection scoring criteria<\/span><\/LI><\/span><span LEADING=\"2\"><LI><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\">Search the eRM to locate the Minimum Efficiency Requirements for Heating and Cooling<\/span><\/LI><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:12px; color:#0B333C;\"><B>Note<\/B>: You CAN use the eRM during the challenge and you can retake the challenge after you review your results.<\/span><\/P><\/span><div class=\"override\"><\/div>",
+                        "heading": "eRM Summary Challenge"
+                    },
+                    "question": [
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "Yes",
+                                        "correct": true,
+                                        "iFeedback": "Good. Click next to test your ability to reference the eRM quickly."
+                                    },
+                                    {
+                                        "#text": "No",
+                                        "iFeedback": "Repeat the Download the eRM page or contact CSG for assistance before moving on: 1-855-237-2673 | escore@csgrp.com"
+                                    }
+                                ],
+                                "randomize": false
+                            },
+                            "feedback": {
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Were you able to download the eScore Reference Manual.pdf?<\/P>"
+                            },
+                            "qtype": "MCH",
+                            "overrideFeedback": false,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "8oqwstboosm05cs",
+                            "tries": 1
+                        }
+                    ],
+                    "includeIntro": true,
+                    "quizmode": "review",
+                    "randomize": false,
+                    "showresults": false,
+                    "reportScore": false,
+                    "incReview": false,
+                    "incRetakeButton": false,
+                    "number_questions": false,
+                    "recordStatus": "none",
+                    "minscore": 0,
+                    "maxscore": 100,
+                    "passComplete": false,
+                    "failIncomplete": false,
+                    "print_results": false,
+                    "email_results": false,
+                    "useServer": false,
+                    "serverURL": "https:\/\/demo.litmosauthor.com\/email\/sendEmail\/",
+                    "LMS_name": false,
+                    "incQuizTitle": false,
+                    "passingScore": 80,
+                    "numquestions": 1,
+                    "useSubset": false,
+                    "intro": "intro",
+                    "tries": 1
+                },
+                {
+                    "popup_title": {
+                        "#text": "Welcome to Rebate Matching Game"
+                    },
+                    "popup_instruction": {
+                        "#text": "<P style=\"text-align:LEFT\">In this challenge, first locate the eScore\u2122 Participant Rebate Schedule in the eRM.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Next, drag the upgrade on the left to the rebate on the right. If the match is correct, a green line will appear. If the answer is wrong, a red line will appear and you can try again with a different upgrade. Hurry up, before the timer runs out!<\/P>"
+                    },
+                    "start_btn": {
+                        "#text": "START"
+                    },
+                    "configuration": {
+                        "audio": "",
+                        "timer": 60,
+                        "points_on_correct": 1,
+                        "only_drop_on_correct": false,
+                        "max_terms_by_game": 6
+                    },
+                    "instruction_page1": {
+                        "#text": "<P style=\"text-align:LEFT\">Drag the upgrade on the left to the rebate on the right. Hurry up, before the timer runs out!<\/P>"
+                    },
+                    "instruction_page2": {
+                        "#text": "Click on the \u201cCorrect Responses\u201d icon to view the correct answers.  Click on the \u201cMy Responses\u201d icon to view your responses."
+                    },
+                    "score_title_txt": {
+                        "#text": "SCORE:"
+                    },
+                    "myResponses_btn": {
+                        "#text": "MY RESPONSES"
+                    },
+                    "correctResponses_btn": {
+                        "#text": "CORRECT RESPONSES"
+                    },
+                    "color": {
+                        "button": "#003399",
+                        "button_over": "#3889E2",
+                        "title_bar": "#484845",
+                        "bg_color1": "#FFFFFF",
+                        "bg_color2": "#A4A195",
+                        "drag_color1": "#000000",
+                        "drag_color2": "#666666"
+                    },
+                    "game": {
+                        "term": [
+                            {
+                                "#text": "$250\/home",
+                                "term": "Attic Insulation"
+                            },
+                            {
+                                "#text": "$200\/home",
+                                "term": "Air Sealing"
+                            },
+                            {
+                                "#text": "$200\/system",
+                                "term": "Duct System"
+                            },
+                            {
+                                "#text": "$25\/unit (max $500)",
+                                "term": "Window Replacement"
+                            },
+                            {
+                                "#text": "$50\/unit (max $300)",
+                                "term": "Exterior Door Replacement"
+                            },
+                            {
+                                "#text": "$150\/system",
+                                "term": "Central Air Conditioning Replacement"
+                            }
+                        ]
+                    },
+                    "narration": {
+                        "#text": "<P style=\"text-align:LEFT\">In this challenge, first locate the eScore\u2122 Participant Rebate Schedule in the eRM.<\/P><P style=\"text-align:LEFT\"><\/P><P style=\"text-align:LEFT\">Next, drag the upgrade on the left to the rebate on the right. If the match is correct, a green line will appear. If the answer is wrong, a red line will appear and you can try again with a different upgrade. Hurry up, before the timer runs out!<\/P>"
+                    },
+                    "title": "eRM Summary Challenge 2",
+                    "pType": "Matching",
+                    "trackInteraction": false,
+                    "recordScore": false,
+                    "file": "swfs\/templateswfs\/adv_int\/rapidintake_matching\/rapidintake_matching.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/templateswfs\/adv_int\/rapidintake_matching\/rapidintake_matching.swf|0"
+                },
+                {
+                    "title": "eRM Summary Challenge 3",
+                    "pType": "Quiz",
+                    "file": "swfs\/quiz.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/quiz.swf|2",
+                    "feedback": {
+                        "provide": true
+                    },
+                    "question": [
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "P1 means, it passes the TVA standards and the installation was completed according the rebate request.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "P2 means it passes TVA Standards but the inspector had to provide technical assistance to the QCN member to correct deficiencies.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "F3 means the installation failed. The inspector identified minor problems that have only minor impacts on the savings or overall quality of the installation.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "F4 means the installation failed and there is an urgent response needed. Items in this area include major problems with the quality of the job, dangerous conditions, or inaccurate and misleading rebate documentation.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "F3 means the installation failed and there is an urgent response needed. Items in this area include major problems with the quality of the job, dangerous conditions or inaccurate and misleading rebate documentation.",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "F4 means the installation failed. The inspector identified minor problems that have only minor impacts on the savings or overall quality of the installation.",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "P2 means, it passes the TVA standards and the installation was completed according the rebate request.",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "P1 means it passes TVA Standards but the inspector had to provide technical assistance to the QCN member to correct deficiencies.",
+                                        "wrap": true
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "initPrompt": {
+                                    "#text": "Check the best 4 answers."
+                                },
+                                "mobileInitPrompt": {
+                                    "#text": "Check the best 4 answers."
+                                },
+                                "correctFeedback": {
+                                    "#text": "Correct: That\u2019s right! You are ready for eScore\u2122."
+                                },
+                                "triesFeedback": {
+                                    "#text": "Not there yet. Compare this list with eRM pages 52-53."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See eRM pages 52-53)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Below are definitions from the new scoring system. Use the eRM to help you identify which 4 descriptions are correct.<\/P>"
+                            },
+                            "qtype": "MC",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "s9ytyx5jzicodzg",
+                            "tries": 2
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "SEER 14, HSPF 8, EER 11",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "SEER 13, HSPF 8, EER 11"
+                                    },
+                                    {
+                                        "#text": "SEER 14, HSPF 7, EER 11"
+                                    },
+                                    {
+                                        "#text": "SEER 14, HSPF 7, EER 10"
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "initPrompt": {
+                                    "#text": "Select the best answer."
+                                },
+                                "mobileInitPrompt": {
+                                    "#text": "Select the best answer."
+                                },
+                                "correctFeedback": {
+                                    "#text": "That\u2019s right! You are ready for eScore\u2122."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect: Incorrect. The correct answers are SEER 14, HSPF 8, and EER 11. (See eRM page 242)"
+                                },
+                                "triesFeedback": {
+                                    "#text": "Give it one more try. Compare this list with eRM page 242."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Using the Minimum Efficiency Requirements for Heating and Cooling in the eRM, identify which of the following is the correct efficiency requirement for Package Heat Pumps.<\/P>"
+                            },
+                            "qtype": "MCH",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "bcekp59xkah3x_n",
+                            "tries": 2
+                        }
+                    ],
+                    "includeIntro": false,
+                    "quizmode": "review",
+                    "randomize": false,
+                    "showresults": false,
+                    "reportScore": false,
+                    "incReview": false,
+                    "incRetakeButton": false,
+                    "number_questions": false,
+                    "recordStatus": "none",
+                    "minscore": 0,
+                    "maxscore": 100,
+                    "passComplete": false,
+                    "failIncomplete": false,
+                    "print_results": false,
+                    "email_results": false,
+                    "useServer": false,
+                    "serverURL": "https:\/\/demo.litmosauthor.com\/email\/sendEmail\/",
+                    "LMS_name": false,
+                    "incQuizTitle": false,
+                    "intro": "intro",
+                    "numquestions": 2,
+                    "useSubset": false,
+                    "tries": 1
+                }
+            ],
+            "title": "TVA Standards",
+            "objectiveId": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 2
+        },
+        {
+            "page": [
+                {
+                    "title": "TVA Standards Practice Quiz 1",
+                    "pType": "Quiz",
+                    "file": "swfs\/quiz.swf",
+                    "loadPercentage": 0,
+                    "fpsec": 12,
+                    "isTocEntry": true,
+                    "nonNavPage": false,
+                    "completed": false,
+                    "leaf": true,
+                    "bookmark": "swfs\/quiz.swf|3",
+                    "feedback": {
+                        "provide": true
+                    },
+                    "introText": {
+                        "#text": "<span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\">The purpose of this practice quiz is to help you determine if you have gained a mastery of the TVA Standards and are ready for the eScore\u2122 TVA Standards Certification Test.<\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><\/span><\/P><\/span><span LEADING=\"2\"><P style=\"text-align:LEFT\"><span style=\"font-face:'Verdana'; font-size:14px; color:#0B333C;\"><B>Note<\/B>: There are 10 questions, you must score 80% to pass, and you can retake the quiz after you have completed the quiz and reviewed your results.<span style=\"font-face:''; font-size:10px; color:;\"><\/span><\/span><\/P><\/span><div class=\"override\"><\/div>",
+                        "heading": "TVA Standards Practice Quiz"
+                    },
+                    "question": [
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "The word \u201cshall\u201d means that the action specified is mandatory and must be accomplished by the QCN member.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "Best Practices are stated in the TVA Standards using the words \u201cshould\u201d and \u201crecommend\u201d and appear in an italic font.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "The word \u201cshould\u201d means that the action specified is mandatory and must be accomplished by the QCN member.",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "Best Practices are stated in the TVA Standards using the words \u201cshall\u201d and \u201crequired\u201d and appear in an italic font.",
+                                        "wrap": true
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "initPrompt": {
+                                    "#text": "Select all the answers that apply."
+                                },
+                                "triesFeedback": {
+                                    "#text": "Incorrect, try again. (See the Overview of TVA Standards Documents in the eRM)"
+                                },
+                                "mobileInitPrompt": {
+                                    "#text": "Select all the answers that apply."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See answers on pages 48 and 49 in the eRM)"
+                                },
+                                "correctFeedback": {
+                                    "#text": "Correct!"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">In the TVA Standards, what is the difference between the \u201c<B>shall<\/B>\u201d and \u201c<B>should<\/B>\u201d requirements? Select the best definition for each term.<\/P>"
+                            },
+                            "qtype": "MC",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "cfxabrzni732pi_",
+                            "tries": 2
+                        },
+                        {
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct. No air sealing material shall be in contact with a heat-dissipating device unless it is fireproof."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. No air sealing material shall be in contact with a heat-dissipating device unless it is fireproof. (See ASL-13, eRM page 77)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\"><B>True<\/B> or <B>False<\/B>: All air sealing materials are rated for contact with the heat-dissipating devices.<\/P>"
+                            },
+                            "qtype": "TF",
+                            "correctResp": false,
+                            "resetBtn": false,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "rhcelv64wn2e0sy",
+                            "tries": 1
+                        },
+                        {
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct. The duct minimum insulation level is R-8. (See H&C-102, eRM page 201)"
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. The duct minimum insulation level is R-8. (See H&C-102, eRM page 201)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">True or False: The minimum insulation level of all newly installed ductwork shall be R-6?<\/P>"
+                            },
+                            "qtype": "TF",
+                            "correctResp": false,
+                            "resetBtn": false,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "x_7a3va9xavpfj6",
+                            "tries": 1
+                        },
+                        {
+                            "dragobjects": {
+                                "textelement": [
+                                    {
+                                        "#text": "Ceiling Penetrations",
+                                        "matchelement": 1
+                                    },
+                                    {
+                                        "#text": "Basement and Crawlspace",
+                                        "matchelement": 2
+                                    },
+                                    {
+                                        "#text": "Attached Garage",
+                                        "matchelement": 3
+                                    },
+                                    {
+                                        "#text": "Walls Windows and Doors",
+                                        "matchelement": 4
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct!"
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See ASL-09, eRM page 76)"
+                                },
+                                "triesFeedback": {
+                                    "#text": "Not quite, try again. You can find help in the Air Sealing: General Standards for All Locations section of the eRM."
+                                },
+                                "initPrompt": {
+                                    "#text": "Drag-and-drop the numbers onto the appropriate step."
+                                },
+                                "mobileInitPrompt": {
+                                    "#text": "Tap a an air sealing requirement to put the steps in order."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Put the air sealing requirements in order.<\/P>"
+                            },
+                            "qtype": "DDNUM",
+                            "resetBtn": true,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "ee7kqxnovrw1obx",
+                            "tries": 2
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "R-21"
+                                    },
+                                    {
+                                        "#text": "R-38"
+                                    },
+                                    {
+                                        "#text": "R-18",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "R-13"
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct!"
+                                },
+                                "triesFeedback": {
+                                    "#text": "That\u2019s not it, try again. (See the Attic Insulation: Kneewalls section of the eRM)"
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See AIN-40, eRM page 126; H&C-03, eRM page 180)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Fill in the blank: Kneewall insulation materials shall be installed to a minimum composite insulation value of ____ if existing, effective insulation level is less than R-11, or anytime kneewall insulation is added.<\/P>"
+                            },
+                            "qtype": "MCH",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "i3kjbxmot7n3ghm",
+                            "tries": 2
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "AIN-41",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "AIN-12"
+                                    },
+                                    {
+                                        "#text": "AIN-43"
+                                    },
+                                    {
+                                        "#text": "AIN-48"
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "That\u2019s right!"
+                                },
+                                "triesFeedback": {
+                                    "#text": "Not quite, try again. (See Attic Insulation Kneewalls in the eRM)"
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See AIN-41, eRM page 126)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">What code suggests that unconditioned attic space cavities under kneewalls should be blocked and air sealed as a best practice?<\/P>"
+                            },
+                            "qtype": "MCH",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "877c75vbn1208q1",
+                            "tries": 2
+                        },
+                        {
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct! Tubular skylights are not eligible for rebates."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. Tubular skylights are not eligible for rebates. (See WND-30, eMR page 168)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">True or False: Tubular skylights are eligible for rebates if they are installed in qualifying homes to replace existing skylights that are damaged.<\/P>"
+                            },
+                            "qtype": "TF",
+                            "correctResp": false,
+                            "resetBtn": false,
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "pdtj4covxag_m_x",
+                            "tries": 1
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "One on each floor",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "One in every room"
+                                    },
+                                    {
+                                        "#text": "One on the bottom floor"
+                                    },
+                                    {
+                                        "#text": "One on the top floor"
+                                    }
+                                ],
+                                "randomize": false
+                            },
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct! In two-story, or multi-level residences, there shall be a minimum of one return air grille on each level."
+                                },
+                                "triesFeedback": {
+                                    "#text": "Not quite, try again. (See Heating and Cooling: Duct Design and Support in the eRM)"
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. In two-story, or multi-level residences, there shall be a minimum of one return air grille on each level. (See H&C-85, eRM page 198)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">How many returns are required on a 2-story or multi-level residence?<\/P>"
+                            },
+                            "qtype": "MCH",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "pwpnoabhihwaldg",
+                            "tries": 2
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "Yes",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "No"
+                                    }
+                                ],
+                                "randomize": false
+                            },
+                            "feedback": {
+                                "correctFeedback": {
+                                    "#text": "Correct."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See WND-11, eRM page 160)"
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Do prime windows need to have NFRC stickers on them?<\/P>"
+                            },
+                            "qtype": "MCH",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "questionId": "rwdzongs9jraqr1",
+                            "tries": 1
+                        },
+                        {
+                            "distractors": {
+                                "distractor": [
+                                    {
+                                        "#text": "The perimeter of the pull down stair frame opening should be weather-stripped.",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Cracks between wood trim and ceiling finish materials should be sealed around the perimeter of the opening with a compatible sealant.",
+                                        "correct": true,
+                                        "wrap": true
+                                    },
+                                    {
+                                        "#text": "Mechanical fasteners should be used where necessary to ensure tight closure.",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Provide a continuous air barrier between conditioned and unconditioned spaces in the attic.",
+                                        "correct": true
+                                    },
+                                    {
+                                        "#text": "Use R-18 loose-fill insulation between attic ladder rungs."
+                                    }
+                                ],
+                                "randomize": true
+                            },
+                            "feedback": {
+                                "initPrompt": {
+                                    "#text": "Select all that apply."
+                                },
+                                "mobileInitPrompt": {
+                                    "#text": "Select all that apply."
+                                },
+                                "correctFeedback": {
+                                    "#text": "You\u2019ve got this down."
+                                },
+                                "incorrectFeedback": {
+                                    "#text": "Incorrect. (See AIN-32, eRM page 125)"
+                                },
+                                "triesFeedback": {
+                                    "#text": "Not quite. See the Attic Insulation section of the TVA Standards and try again."
+                                },
+                                "provide": true
+                            },
+                            "questionText": {
+                                "#text": "<P style=\"text-align:LEFT\">Look at the picture and identify all the standards that apply when applying for an Air Sealing rebate.<\/P>"
+                            },
+                            "qtype": "MCIMAGE",
+                            "overrideFeedback": true,
+                            "tracking": true,
+                            "weight": 1,
+                            "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er200_AtticLadder.jpg",
+                            "questionId": "ba_l9zc03m_zd93",
+                            "tries": 2
+                        }
+                    ],
+                    "includeIntro": true,
+                    "quizmode": "review",
+                    "randomize": false,
+                    "showresults": true,
+                    "reportScore": true,
+                    "incReview": true,
+                    "incRetakeButton": true,
+                    "number_questions": true,
+                    "recordStatus": "passIncomplete",
+                    "minscore": 0,
+                    "maxscore": 100,
+                    "passComplete": false,
+                    "failIncomplete": false,
+                    "print_results": false,
+                    "email_results": false,
+                    "useServer": false,
+                    "serverURL": "https:\/\/demo.litmosauthor.com\/email\/sendEmail\/",
+                    "LMS_name": false,
+                    "incQuizTitle": false,
+                    "passingScore": 80,
+                    "numquestions": 10,
+                    "useSubset": false,
+                    "intro": "intro",
+                    "tries": 1
+                }
+            ],
+            "title": "Test Your Knowledge",
+            "objectiveId": "none",
+            "nav": "unrestricted",
+            "showTopicPages": true,
+            "leaf": false,
+            "topicId": 3
+        },
+        {
+            "pText": [],
+            "title": "End of Lesson",
+            "pType": "TextPage",
+            "imageFile": "https:\/\/escore.litmosauthor.com\/access\/Media\/Original\/er202EndLesson.png",
+            "imgPos": "center",
+            "imageWidth": 85,
+            "nType": "none",
+            "file": "swfs\/templateswfs\/rapidintake_textimage\/ri_textimage_pg.swf",
+            "loadPercentage": 0,
+            "fpsec": 12,
+            "isTocEntry": true,
+            "nonNavPage": false,
+            "completed": false,
+            "leaf": true,
+            "bookmark": "swfs\/templateswfs\/rapidintake_textimage\/ri_textimage_pg.swf|0"
+        }
+    ],
+    "leaf": false,
+    "tracking": "none",
+    "title": "eScore\u2122 Reference Manual",
+    "styleName": "eScore (Player 8, 1024x768)",
+    "saturationPercent": 75,
+    "narration": true,
+    "glossary": true,
+    "audioButton": true,
+    "exitButton": false,
+    "noLink": false,
+    "pageNumbering": true,
+    "include_question_cnt": true,
+    "indexTooltip": true,
+    "transition": "none",
+    "tranDirection": "right",
+    "transitionTime": 1,
+    "completion": "None",
+    "pageComplete": false,
+    "autoNavigation": false,
+    "backgroundColor": "#FFFFFF",
+    "buttonTextColor": "#FFFFFF",
+    "titleFieldColor": "#FFFFFF",
+    "footerColor": "#000000",
+    "indexHeader": "#CCCCCC",
+    "glossaryColor": "#CCCCCC",
+    "indexColor": "#CCCCCC",
+    "headerColor": "#505961",
+    "indexTopicColor": "#000000",
+    "indexLinkColor": "#000000",
+    "glossaryHeader": "#CCCCCC",
+    "buttonColor": "#FFFFFF",
+    "indexLinkOverColor": "#333333",
+    "courseLogo": "",
+    "persIndex": false,
+    "total": 0
+}
