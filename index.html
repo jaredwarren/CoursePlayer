@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <!-- <title>Player</title> -->
+
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="lang/en-US.js"></script>
     
     <script type="text/javascript">
-        var Ext = Ext || {};
-        var Player = Player || {};
+        var Ext = Ext || {}; // Ext namespace won't be defined yet...
+        var Player = Player || {}; // Ext namespace won't be defined yet...
 
+        // This function is called by the Microloader after it has performed basic
+        // device detection. The results are provided in the "tags" object. You can
+        // use these tags here or even add custom tags. These can be used by platform
+        // filters in your manifest or by platformConfig expressions in your app.
         Ext.beforeLoad = function (tags) {
             // Load Params and Lang
             var params = getParams(),
                 profile = params['profile'];
             Player.params = params;
-            
             // profile
+            
             var modernTest = /^modern$/;
             var classicTest = /^classic$/;
             if(!profile){

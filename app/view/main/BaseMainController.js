@@ -377,7 +377,7 @@ Ext.define('Player.view.main.BaseMainController', {
     if(hash == ""){
       hash = encodeURI(pageRecord.get('title'))
     }
-    me.redirectTo('page/' + hash); //window.location.hash = me._currentHash = pageRecord.get('linkID');
+    me.redirectTo(hash); //window.location.hash = me._currentHash = pageRecord.get('linkID');
 
     var lowerToolBarData = {};
     // Update Narration

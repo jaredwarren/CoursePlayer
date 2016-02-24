@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'Player' );
-$image-search-path: 'c:/data/www/sandbox/CoursePlayer/build/production/Player/classic/resources';
+$image-search-path: 'C:/data/www/sandbox/ExtPlayer/build/production/Player/classic/resources';
 $theme-name:  dynamic( 'default-theme-classic' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;

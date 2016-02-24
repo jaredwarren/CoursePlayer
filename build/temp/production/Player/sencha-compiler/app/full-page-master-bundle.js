@@ -1,2 +1,2 @@
 // @tag full-page
-// @require c:\data\www\sandbox\CoursePlayer\app.js
+// @require C:\data\www\sandbox\ExtPlayer\app.js
