@@ -1,12 +1,14 @@
 Ext.define('Player.controller.SCORM12Mixin', {
   extend: 'Player.controller.SCORMMixin',
 
+  _initialize: 'LMSInitialize',
   _apiName: 'API',
   _GetValueFn: 'LMSGetValue',
   _GetLastErrorFn: 'LMSGetLastError',
   _GetErrorStringFn: 'LMSGetErrorString',
   _GetDiagnostic: 'LMSGetDiagnostic',
   _SetValueFn: 'LMSSetValue',
+  _CommitFn: 'LMSCommit',
 
   _bookmark: 'cmi.core.lesson_location',
   _datachunk: 'cmi.suspend_data',
@@ -16,6 +18,7 @@ Ext.define('Player.controller.SCORM12Mixin', {
   _score_min: 'cmi.core.score.min',
 
   _lesson_status: 'cmi.core.lesson_status',
+  _session_time: 'cmi.core.session_time',
 
   _learner_id: 'cmi.core.student_id',
   _learner_name: 'cmi.core.student_name',
@@ -25,31 +28,30 @@ Ext.define('Player.controller.SCORM12Mixin', {
   _learner_response: 'student_response',
   _timestamp: 'time',
 
-  
+
   _mode: 'cmi.core.lesson_mode',
 
   _t: 't',
   _f: 'f',
+  REVIEW_MODE_IS_READ_ONLY: false,
 
   Initialize: function(config) {
-    var me = this;
+    var me = this,
+      blnResult = true;
 
     me.callParent(arguments);
 
     if (me.GetLessonMode() != 'review') {
-      if (SCORM_IsContentInBrowseMode()) {
+      if (me.GetValue("cmi.core.lesson_mode") == 'browse') {
         blnResult = me.SetValue("cmi.core.lesson_status", 'browsed');
       } else {
-        if (SCORM_GetStatus() == me.NOTATTEMPTED) {
-          blnResult = SCORM_CallLMSSetValue("cmi.core.lesson_status", SCORM_INCOMPLETE);
+        if (me.GetValue("cmi.core.lesson_status") == "not attempted") {
+          blnResult = me.SetValue("cmi.core.lesson_status", "incomplete");
         }
       }
-      blnResult = SCORM_CallLMSSetValue("cmi.core.exit", SCORM_TranslateExitTypeToSCORM(DEFAULT_EXIT_TYPE)) && blnResult;
-    } else {
-      if (!(typeof(REVIEW_MODE_IS_READ_ONLY) == "undefined") && REVIEW_MODE_IS_READ_ONLY === true) {
-        blnReviewModeSoReadOnly = true;
-      }
+      blnResult = me.SetValue("cmi.core.exit", "suspend") && blnResult;
     }
+    return true;
   },
 
   ResetStatus: function() {
@@ -83,7 +85,7 @@ Ext.define('Player.controller.SCORM12Mixin', {
 
     // Objective
     if (objectives != undefined && objectives != null && objectives != "") {
-      result = SCORM_CallLMSSetValue("cmi.interactions." + interactionCount + ".objectives.0.id", objectives) && result;
+      result = me.SetValue("cmi.interactions." + interactionCount + ".objectives.0.id", objectives) && result;
     }
 
     // latency
@@ -136,18 +138,67 @@ Ext.define('Player.controller.SCORM12Mixin', {
     return tempResult;
   },
 
-  _formatTime: function(dtmDate) {
-    var strHours;
-    var strMinutes;
-    var strSeconds;
-    var strReturn;
+  convertLatency: function(latencyInt, incFraction) {
+    var me = this,
+      intHours,
+      intMinutes,
+      intSeconds,
+      intMilliseconds,
+      intHundredths,
+      strCMITimeSpan;
+    if (incFraction == null || incFraction == undefined) {
+      incFraction = true;
+    }
+    intMilliseconds = latencyInt % 1000;
+    intSeconds = ((latencyInt - intMilliseconds) / 1000) % 60;
+    intMinutes = ((latencyInt - intMilliseconds - (intSeconds * 1000)) / 60000) % 60;
+    intHours = (latencyInt - intMilliseconds - (intSeconds * 1000) - (intMinutes * 60000)) / 3600000;
+    if (intHours == 10000) {
+      intHours = 9999;
+      intMinutes = (latencyInt - (intHours * 3600000)) / 60000;
+      if (intMinutes == 100) {
+        intMinutes = 99;
+      }
+      intMinutes = Math.floor(intMinutes);
+      intSeconds = (latencyInt - (intHours * 3600000) - (intMinutes * 60000)) / 1000;
+      if (intSeconds == 100) {
+        intSeconds = 99;
+      }
+      intSeconds = Math.floor(intSeconds);
+      intMilliseconds = (latencyInt - (intHours * 3600000) - (intMinutes * 60000) - (intSeconds * 1000));
+    }
+    intHundredths = Math.floor(intMilliseconds / 10);
+    strCMITimeSpan = me._zeroPad(intHours, 4) + ":" + me._zeroPad(intMinutes, 2) + ":" + me._zeroPad(intSeconds, 2);
+    if (incFraction) {
+      strCMITimeSpan += "." + intHundredths;
+    }
+    if (intHours > 9999) {
+      strCMITimeSpan = "9999:99:99";
+      if (incFraction) {
+        strCMITimeSpan += ".99";
+      }
+    }
+    return strCMITimeSpan;
+  },
+
+  convertTimestamp: function(dtmDate) {
+    var me = this,
+      strHours,
+      strMinutes,
+      strSeconds,
+      strReturn;
     dtmDate = new Date(dtmDate);
     strHours = dtmDate.getHours();
     strMinutes = dtmDate.getMinutes();
     strSeconds = dtmDate.getSeconds();
-    strReturn = ZeroPad(strHours, 2) + ":" + ZeroPad(strMinutes, 2) + ":" + ZeroPad(strSeconds, 2);
+    strReturn = me._zeroPad(strHours, 2) + ":" + me._zeroPad(strMinutes, 2) + ":" + me._zeroPad(strSeconds, 2);
     return strReturn;
   },
+
+
+
+  /*  latency  -> ConvertMilliSecondsToSCORMTime
+  timestamp -> ConvertDateToCMITime*/
 
 
   _finish: function(exitType) {
@@ -157,7 +208,7 @@ Ext.define('Player.controller.SCORM12Mixin', {
 
     me.callParent(arguments);
 
-    if ((exitType == 'FINISH') && !me.isStatusSet) {
+    if ((exitType == '') && !me.isStatusSet) {
       if (me.GetValue("cmi.core.lesson_mode") == 'browse') {
         lesson_mode = 'browse';
       }
@@ -170,11 +221,10 @@ Ext.define('Player.controller.SCORM12Mixin', {
     return blnResult;
   },
 
-
-  Commit: function() {
-    var result = this._api.LMSCommit("").toString();
-    return result == 'true';
+  Finish: function() {
+    return this.execFinish('');
   },
+
 
   Terminate: function() {
     var result = this._api.LMSFinish("").toString();

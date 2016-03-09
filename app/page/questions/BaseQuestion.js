@@ -64,7 +64,7 @@ Ext.define('Player.page.questions.BaseQuestion', {
     cfg = cfg || {};
 
     // default quesiton record
-    me.config.questionRecord.strID = cfg.strID;
+    me.config.questionRecord.strID = cfg.questionId;
     cfg.questionRecord = Ext.Object.merge({}, me.config.questionRecord, cfg.questionRecord);
 
     //unshift audio bar
@@ -387,7 +387,9 @@ Ext.define('Player.page.questions.BaseQuestion', {
     me.triesAttempted = 0;
 
     // start time
-    var d = new Date();
+    var d = new Date(),
+      questionRecord = me.getQuestionRecord();
+    questionRecord.startTime = d;
     me.startTime = d.getTime();
   },
 

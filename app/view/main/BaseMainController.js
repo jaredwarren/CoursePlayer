@@ -373,8 +373,8 @@ Ext.define('Player.view.main.BaseMainController', {
       SCORM.SetBookmark(encodeURI(pageRecord.get('bookmark')));
     }
 
-    var hash =  pageRecord.get('linkID');
-    if(hash == ""){
+    var hash = pageRecord.get('linkID');
+    if (hash == "") {
       hash = encodeURI(pageRecord.get('title'))
     }
     me.redirectTo(hash); //window.location.hash = me._currentHash = pageRecord.get('linkID');
@@ -464,9 +464,15 @@ Ext.define('Player.view.main.BaseMainController', {
     Ext.Msg.confirm(Lang.Exit, Lang.Sure_Exit, this.exitCourse);
   },
   exitCourse: function(btnId) {
-    var me = this;
+    var me = this,
+      tracking = Player.settings.get('tracking').toUpperCase();
     if (btnId == 'yes' || btnId == 'ok') {
-      SCORM.Exit();
+      console.info("Exit:", tracking);
+      if (tracking == 'TINCAN' || tracking == 'TCAPI' || tracking == 'LOCAL.') {
+        SCORM.ConcedeControl();
+      } else {
+        SCORM.Exit();
+      }
     } else {
       try {
         currentPage.showVideo();
@@ -479,6 +485,14 @@ Ext.define('Player.view.main.BaseMainController', {
    */
   init: function(application) {
     var me = this;
+    Ext.getWin().on('beforeunload', function(e) {
+      SCORM.Exit();
+      /*if (e) e.returnValue = Lang.Exit;
+      if (window.event) window.event.returnValue = Lang.Exit;
+      return Lang.Exit;*/
+    }, this, {
+      normalized: false
+    });
     if (Ext.getStore("ScoTreeStore").isLoaded()) {
       me.startLoadSettings();
     }
@@ -529,7 +543,7 @@ Ext.define('Player.view.main.BaseMainController', {
     window.document.title = settings.data.title;
 
     var showClose = true;
-    if (tracking == 'none' || Player.params.showClose != '1') {
+    if (tracking == 'none' || (Player.params.showClose && Player.params.showClose != '1')) {
       showClose = false;
     }
 
@@ -578,15 +592,17 @@ Ext.define('Player.view.main.BaseMainController', {
     // recover session
     if (settings.data.bookmarking) {
       var dc = SCORM.GetDataChunk();
-      if (dc) {
+      if ( !! dc && dc != "undefined") {
+        console.info("recoverSession::", dc);
         st.recoverSession(dc);
       }
     }
 
     // recover Bookmark page
-    var bookmarkPage = decodeURI(SCORM.GetBookmark()),
+    var bm = SCORM.GetBookmark(),
+      bookmarkPage = decodeURI(SCORM.GetBookmark()),
       hash = Ext.History.currentToken;
-    if (settings.data.bookmarking && bookmarkPage && Player.params.status != 'notattempted') {
+    if (settings.data.bookmarking && bookmarkPage != "" && bookmarkPage != "undefined" && Player.params.status != 'notattempted') {
       Ext.Msg.confirm(Lang.scorm.Course_Bookmark, Lang.scorm.Course_Bookmark_Message, function(btnId) {
         if (btnId == 'yes' || btnId == 'ok') {
           me.recoverBookmark(bookmarkPage);
@@ -602,12 +618,10 @@ Ext.define('Player.view.main.BaseMainController', {
         if (!pageRecord) {
           me.goToFirstPage();
         } else {
-          // force redirect
-          me.redirectTo(hash, true);
+          me.goToPage(pageRecord)
         }
       } else {
-        // force redirect
-        me.redirectTo(hash, true);
+        me.goToPage(pageRecord)
       }
     } else {
       me.goToFirstPage();

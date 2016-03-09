@@ -1,12 +1,14 @@
 Ext.define('Player.controller.SCORM2004Mixin', {
   extend: 'Player.controller.SCORMMixin',
 
+  _initialize: 'Initialize',
   _apiName: 'API_1484_11',
   _GetValueFn: 'GetValue',
   _GetLastErrorFn: 'GetLastError',
   _GetErrorStringFn: 'GetErrorString',
   _GetDiagnostic: 'GetDiagnostic',
   _SetValueFn: 'SetValue',
+  _CommitFn: 'Commit',
 
   _bookmark: 'cmi.location',
   _datachunk: 'cmi.suspend_data',
@@ -16,6 +18,7 @@ Ext.define('Player.controller.SCORM2004Mixin', {
   _score_min: 'cmi.score.min',
 
   _lesson_status: 'cmi.success_status',
+  _session_time: 'cmi.session_time',
 
   _learner_id: 'cmi.learner_id',
   _learner_name: 'cmi.learner_name',
@@ -53,8 +56,6 @@ Ext.define('Player.controller.SCORM2004Mixin', {
     }
     return true;
   },
-
-
 
   GetStatus: function() {
     var me = this,
@@ -134,7 +135,7 @@ Ext.define('Player.controller.SCORM2004Mixin', {
   _recordInteractionCorrectResponse: function(interactionCount, correct_responses, alternateCorrectResponse) {
     var me = this;
     if (correct_responses != undefined && correct_responses != null && correct_responses != "") {
-      return me.SetValue("cmi.interactions." + intInteractionIndex + ".correct_responses.0.pattern", correct_responses);
+      return me.SetValue("cmi.interactions." + interactionCount + ".correct_responses.0.pattern", correct_responses);
     }
     return true;
   },
@@ -144,23 +145,92 @@ Ext.define('Player.controller.SCORM2004Mixin', {
     return me.SetValue("cmi.interactions." + interactionCount + "." + me._learner_response, learner_response);
   },
 
-  _formatTime: function(dtm) {
+
+
+  Finish: function() {
+    return this.execFinish('normal');
+  },
+
+
+
+  convertLatency: function(latencyInt) {
     var me = this,
-      strTimeStamp;
-    dtm = new Date(dtm);
-    var Year = dtm.getFullYear();
-    var Month = dtm.getMonth() + 1;
-    var Day = dtm.getDate();
-    var Hour = dtm.getHours();
-    var Minute = dtm.getMinutes();
-    var Second = dtm.getSeconds();
+      ScormTime = "",
+      HundredthsOfASecond,
+      Seconds,
+      Minutes,
+      Hours,
+      Days,
+      Months,
+      Years,
+      HUNDREDTHS_PER_SECOND = 100,
+      HUNDREDTHS_PER_MINUTE = HUNDREDTHS_PER_SECOND * 60,
+      HUNDREDTHS_PER_HOUR = HUNDREDTHS_PER_MINUTE * 60,
+      HUNDREDTHS_PER_DAY = HUNDREDTHS_PER_HOUR * 24,
+      HUNDREDTHS_PER_MONTH = HUNDREDTHS_PER_DAY * (((365 * 4) + 1) / 48),
+      HUNDREDTHS_PER_YEAR = HUNDREDTHS_PER_MONTH * 12;
+    HundredthsOfASecond = Math.floor(latencyInt / 10);
+    Years = Math.floor(HundredthsOfASecond / HUNDREDTHS_PER_YEAR);
+    HundredthsOfASecond -= (Years * HUNDREDTHS_PER_YEAR);
+    Months = Math.floor(HundredthsOfASecond / HUNDREDTHS_PER_MONTH);
+    HundredthsOfASecond -= (Months * HUNDREDTHS_PER_MONTH);
+    Days = Math.floor(HundredthsOfASecond / HUNDREDTHS_PER_DAY);
+    HundredthsOfASecond -= (Days * HUNDREDTHS_PER_DAY);
+    Hours = Math.floor(HundredthsOfASecond / HUNDREDTHS_PER_HOUR);
+    HundredthsOfASecond -= (Hours * HUNDREDTHS_PER_HOUR);
+    Minutes = Math.floor(HundredthsOfASecond / HUNDREDTHS_PER_MINUTE);
+    HundredthsOfASecond -= (Minutes * HUNDREDTHS_PER_MINUTE);
+    Seconds = Math.floor(HundredthsOfASecond / HUNDREDTHS_PER_SECOND);
+    HundredthsOfASecond -= (Seconds * HUNDREDTHS_PER_SECOND);
+    if (Years > 0) {
+      ScormTime += Years + "Y";
+    }
+    if (Months > 0) {
+      ScormTime += Months + "M";
+    }
+    if (Days > 0) {
+      ScormTime += Days + "D";
+    }
+    if ((HundredthsOfASecond + Seconds + Minutes + Hours) > 0) {
+      ScormTime += "T";
+      if (Hours > 0) {
+        ScormTime += Hours + "H";
+      }
+      if (Minutes > 0) {
+        ScormTime += Minutes + "M";
+      }
+      if ((HundredthsOfASecond + Seconds) > 0) {
+        ScormTime += Seconds;
+        if (HundredthsOfASecond > 0) {
+          ScormTime += "." + HundredthsOfASecond;
+        }
+        ScormTime += "S";
+      }
+    }
+    if (ScormTime == "") {
+      ScormTime = "T0S";
+    }
+    ScormTime = "P" + ScormTime;
+    return ScormTime;
+  },
+
+  convertTimestamp: function(timestamp) {
+    var strTimeStamp;
+    timestamp = new Date(timestamp);
+    var me = this,
+      Year = timestamp.getFullYear(),
+      Month = timestamp.getMonth() + 1,
+      Day = timestamp.getDate(),
+      Hour = timestamp.getHours(),
+      Minute = timestamp.getMinutes(),
+      Second = timestamp.getSeconds();
     Month = me._zeroPad(Month, 2);
     Day = me._zeroPad(Day, 2);
     Hour = me._zeroPad(Hour, 2);
     Minute = me._zeroPad(Minute, 2);
     Second = me._zeroPad(Second, 2);
     strTimeStamp = Year + "-" + Month + "-" + Day + "T" + Hour + ":" + Minute + ":" + Second;
-    var tzoffset = -(dtm.getTimezoneOffset() / 60);
+    var tzoffset = -(timestamp.getTimezoneOffset() / 60);
     if (tzoffset != 0) {
       strTimeStamp += '.0';
       if (tzoffset > 0) {
@@ -179,52 +249,18 @@ Ext.define('Player.controller.SCORM2004Mixin', {
     return strTimeStamp;
   },
 
-  _zeroPad: function(intNum, intNumDigits) {
-    var strTemp;
-    var intLen;
-    var decimalToPad;
-    var i;
-    var isNeg = false;
-    strTemp = new String(intNum);
-    if (strTemp.indexOf('-') != -1) {
-      isNeg = true;
-      strTemp = strTemp.substr(1, strTemp.length);
-    }
-    if (strTemp.indexOf('.') != -1) {
-      strTemp.replace('.', '');
-      decimalToPad = strTemp.substr(strTemp.indexOf('.') + 1, strTemp.length);
-      strTemp = strTemp.substr(0, strTemp.indexOf('.'));
-    }
-    intLen = strTemp.length;
-    if (intLen > intNumDigits) {
-      strTemp = strTemp.substr(0, intNumDigits);
-    } else {
-      for (i = intLen; i < intNumDigits; i++) {
-        strTemp = "0" + strTemp;
-      }
-    }
-    if (isNeg == true) {
-      strTemp = '-' + strTemp;
-    }
-    if (decimalToPad != null && decimalToPad != '') {
-      if (decimalToPad.length == 1) {
-        strTemp += ':' + decimalToPad + '0';
-      } else {
-        strTemp += ':' + decimalToPad;
-      }
-    }
-    return strTemp;
-  },
-
-
 
   _finish: function(exitType) {
     var me = this,
       blnResult = true;
 
-    me.callParent(arguments);
+    if (exitType == '') {
+      exitType = 'normal';
+    }
 
-    if ((exitType == 'FINISH') && !me.isStatusSet) {
+    me.callParent([exitType]);
+
+    if ((exitType == 'normal') && !me.isStatusSet) {
       blnResult = me.SetValue("cmi.completion_status", 'completed') && blnResult;
     }
     blnResult = me.SetValue("cmi.exit", exitType) && blnResult;
@@ -233,11 +269,6 @@ Ext.define('Player.controller.SCORM2004Mixin', {
     return blnResult;
   },
 
-
-  Commit: function() {
-    var result = this._api.Commit("").toString();
-    return result == 'true';
-  },
 
   Terminate: function() {
     var result = this._api.Terminate("").toString();

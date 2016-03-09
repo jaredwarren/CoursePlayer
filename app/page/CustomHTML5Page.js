@@ -25,6 +25,7 @@ Ext.define('Player.page.CustomHTML5Page', {
     if(cfg.sourceType != 'static'){
       html = 'Wrong pType, should be FrameHTML5Page';
     }
+    
     me.callParent([Ext.apply({
       items: [{
         xtype: 'container',

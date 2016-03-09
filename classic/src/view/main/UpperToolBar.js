@@ -41,6 +41,7 @@ Ext.define('Player.view.main.UpperToolBar', {
 	}, {
 		xtype: 'button',
 		iconCls: 'pictos pictos-delete',
+		ui: 'default',
 		action: 'close',
 		bind: {
 			hidden: '{!showClose}'

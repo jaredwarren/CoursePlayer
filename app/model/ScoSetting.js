@@ -24,9 +24,11 @@ Ext.define('Player.model.ScoSetting', {
         type: 'string'
     }, {
         name: 'completion',
+        defaultValue: 'completed',
         type: 'string'
     }, {
         name: 'pageComplete',
+        defaultValue: true,
         type: 'boolean'
     }, {
         name: 'autoNavigation',

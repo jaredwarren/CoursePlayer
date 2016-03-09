@@ -212,7 +212,7 @@ Ext.define('Player.store.ScoTreeStore', {
       dc = 'toc`';
 
     me.root.cascadeBy(function(node) {
-      if (node.get("isTocEntry")) {
+      if (node.get("isTocEntry") && !node.isRoot()) {
         if (node.isLeaf()) {
           if (node.get('complete')) {
             completedPages.push('1');
@@ -246,7 +246,7 @@ Ext.define('Player.store.ScoTreeStore', {
       counter = 0;
 
     me.root.cascadeBy(function(node) {
-      if (node.get("isTocEntry")) {
+      if (node.get("isTocEntry") && !node.isRoot() && node.isLeaf()) {
         if (pagesCompleted[counter] == '1') {
           node.set('text', '&#x2713; ' + node.get('text'));
           node.set('complete', true);

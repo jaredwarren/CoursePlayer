@@ -21,14 +21,13 @@ Ext.define('Player.controller.SCORMMixin', {
 	_api: null,
 	_initialized: false,
 
-	isReachedEnd: false,
-
-	isLoaded: false,
 	isFinished: false,
 	isCalledFinish: false,
 	isReachedEnd: false,
 	isOverrodeTime: false,
 	isStatusSet: false,
+
+	_startTime: null,
 
 
 	// general api functions
@@ -44,13 +43,14 @@ Ext.define('Player.controller.SCORMMixin', {
 		me._completion = config.completion;
 
 		// do init stuff
-		var result = api.Initialize("");
+		var result = api[me._initialize]("");
 		if (result.toString() != "true") {
 			var err = me.ErrorHandler();
 			console.error("Initialize failed with error code: " + err.code);
 			return false;
 		}
 		me._initialized = true;
+		me._startTime = new Date();
 		return true;
 	},
 
@@ -61,7 +61,9 @@ Ext.define('Player.controller.SCORMMixin', {
 			error;
 		if (api == null) {
 			console.error("Unable to locate the LMS's API Implementation.\nGetValue was not successful.");
-		} else if (!me._initialized && !me.Initialize()) {
+		} else if (!me._initialized && !me.Initialize({
+			completion: "completed"
+		})) {
 			error = me.ErrorHandler();
 			console.error("GetValue failed - Could not initialize communication with the LMS - error code: " + error.code);
 		} else {
@@ -73,17 +75,21 @@ Ext.define('Player.controller.SCORMMixin', {
 				result = "";
 			}
 		}
+		console.info("GET:", key, " <- ", result.toString());
 		return result.toString();
 	},
 
 	SetValue: function(key, value) {
+		console.info("SET:", key, " -> ", value);
 		var me = this,
 			api = me.getAPI(),
 			result = "false",
 			error;
 		if (api == null) {
 			console.error("Unable to locate the LMS's API Implementation.\nSetValue was not successful.");
-		} else if (!me._initialized && !me.Initialize()) {
+		} else if (!me._initialized && !me.Initialize({
+			completion: "completed"
+		})) {
 			error = ErrorHandler();
 			console.error("SetValue failed - Could not initialize communication with the LMS - error code: " + error.code);
 		} else {
@@ -101,7 +107,7 @@ Ext.define('Player.controller.SCORMMixin', {
 
 	GetBookmark: function() {
 		var me = this;
-		me.GetValue(me._bookmark);
+		return me.GetValue(me._bookmark);
 	},
 
 	SetBookmark: function(bookmark) {
@@ -111,7 +117,7 @@ Ext.define('Player.controller.SCORMMixin', {
 
 	GetDataChunk: function() {
 		var me = this;
-		me.GetValue(me._datachunk);
+		return me.GetValue(me._datachunk);
 	},
 
 	SetDataChunk: function(suspend_data) {
@@ -134,6 +140,7 @@ Ext.define('Player.controller.SCORMMixin', {
 		var me = this,
 			result;
 		result = me.SetValue(me._lesson_status, 'passed');
+		me.isStatusSet = true;
 		return result;
 	},
 
@@ -141,10 +148,17 @@ Ext.define('Player.controller.SCORMMixin', {
 		var me = this,
 			result;
 		result = me.SetValue(me._lesson_status, 'failed');
+		me.isStatusSet = true;
 		return result;
 	},
 
-	GetLessonMode: function(){
+	ResetStatus: function() {
+		var me = this;
+		me.isStatusSet = false;
+		return me.SetValue(me._lesson_status, "incomplete");
+	},
+
+	GetLessonMode: function() {
 		var me = this;
 		return lessonMode = me.GetValue(me._mode);
 	},
@@ -165,21 +179,40 @@ Ext.define('Player.controller.SCORMMixin', {
 		return this.GetValue(this._learner_name);
 	},
 
+	SetReachedEnd: function() {
+		var me = this;
+		if (me.isStatusSet) {
+			me.SetCompleted();
+		}
+		me.isReachedEnd = true;
+	},
+
+	Commit: function() {
+		var me = this;
+		var result = this._api[me._CommitFn]("").toString();
+		return result == 'true';
+	},
+
 	ConcedeControl: function() {
+		console.log("ConcedeControl::");
 		var me = this,
 			contentRoot = null,
 			urlBase = null;
 		contentRoot = me.searchForParentRoot();
+		me.Suspend();
 		if (contentRoot == window.top) {
-			me.Suspend();
+			console.log("contentRoot == window.top");
 			contentRoot.window.close();
 		} else {
-			me.Suspend();
 			if (contentRoot != null) {
+				console.log("contentRoot != null");
 				var urlParts = contentRoot.location.href.split("/");
 				delete urlParts[urlParts.length - 1];
 				urlBase = urlParts.join("/");
 				contentRoot.scormdriver_content.location.href = urlBase + EXIT_TARGET;
+			} else {
+				console.log("force close");
+				window.top.close();
 			}
 		}
 		return true;
@@ -207,16 +240,16 @@ Ext.define('Player.controller.SCORMMixin', {
 		}
 		// Objective
 		if (objectives != undefined && objectives != null && objectives != "") {
-			result = SCORM_CallLMSSetValue("cmi.interactions." + interactionCount + ".objectives.0.id", objectives) && result;
+			result = me.SetValue("cmi.interactions." + interactionCount + ".objectives.0.id", objectives) && result;
 		}
 		// latency
 		if (latency != undefined && latency != null && latency != "") {
-			result = me.SetValue("cmi.interactions." + interactionCount + ".latency", latency) && result;
+			result = me.SetValue("cmi.interactions." + interactionCount + ".latency", me.convertLatency(latency)) && result;
 		}
 		// description
 		result = me._recordInteractionDescription(interactionCount, description) && result;
 		//time
-		result = me.SetValue("cmi.interactions." + interactionCount + "." + me._timestamp, me._formatTime(time)) && result;
+		result = me.SetValue("cmi.interactions." + interactionCount + "." + me._timestamp, me.convertTimestamp(time)) && result;
 
 		// responses
 		result = me._recordInteractionCorrectResponse(interactionCount, correct_responses, alternateCorrectResponse) && result;
@@ -228,16 +261,19 @@ Ext.define('Player.controller.SCORMMixin', {
 	RecordTrueFalseInteraction: function(id, learner_response, correct, correct_responses, description, weighting, latency, objectives, time) {
 		var me = this,
 			responseString = '',
-			correctResponseString = null;
+			correctResponseString = null
+			learnerResponse = learner_response[0];
 
-		if (learner_response) {
+		if (learnerResponse && learnerResponse.Long.toLowerCase() == me._t) {
 			responseString = me._t;
-		} else {
+		} else if (learnerResponse && learnerResponse.Long.toLowerCase() == me._f) {
 			responseString = me._f;
+		} else {
+			responseString = '';
 		}
-		if (correct_responses == true) {
+		if (correct_responses[0].Long.toLowerCase() == me._t) {
 			correctResponseString = me._t;
-		} else if (correct_responses == false) {
+		} else if (correct_responses[0].Long.toLowerCase() == me._f) {
 			correctResponseString = me._f;
 		}
 
@@ -269,17 +305,17 @@ Ext.define('Player.controller.SCORMMixin', {
 		if (correct_responses == null) {
 			correct_responses = "";
 		}
-		correct_responses = new String(correct_responses);
-		if (correct_responses.length > 250 || learner_response.length > 250) {
+		correctResponseString = correct_responses.join(',');
+		if (correctResponseString.length > 250 || learner_response.length > 250) {
 			interactionType = 'long-fill-in';
 		} else {
 			interactionType = 'fill-in';
 		}
-		if (correct_responses.length > 4000) {
-			correct_responses = correct_responses.substr(0, 4000);
+		if (correctResponseString.length > 4000) {
+			correctResponseString = correctResponseString.substr(0, 4000);
 		}
 
-		return me.RecordInteraction(id, interactionType, learner_response, correct, correct_responses, description, weighting, latency, objectives, time, learner_response, correct_responses);
+		return me.RecordInteraction(id, "fill-in", learner_response, correct, correctResponseString, description, weighting, latency, objectives, time, learner_response, correctResponseString);
 	},
 
 	CreateResponseIdentifier: function(Short, Long) {
@@ -290,35 +326,44 @@ Ext.define('Player.controller.SCORMMixin', {
 	},
 
 	Suspend: function() {
-		return this._finish('SUSPEND');
+		return this.execFinish('suspend');
 	},
 
+
 	_finish: function(exitType) {
+		var me = this,
+			intAccumulatedMS = 0,
+			end;
+		end = new Date();
+		intAccumulatedMS = (end.getTime() - me._startTime.getTime());
+		me._startTime = null;
+		me.SetValue(me._session_time, me.convertLatency(intAccumulatedMS));
+	},
+
+	execFinish: function(exitType) {
 		var me = this;
-		if (me.isLoaded && !me.isCalledFinish) {
+		if (me._initialized && !me.isCalledFinish) {
 			me.isCalledFinish = true;
-			if (me.isReachedEnd && (!EXIT_SUSPEND_IF_COMPLETED)) {
-				exitType = 'FINISH';
+			if (me.isReachedEnd) { // default: EXIT_SUSPEND_IF_COMPLETED = false;
+				exitType = '';
 			}
-			/*
-			// Not supported yet...
-			if (me.GetStatus() == 'passed' && EXIT_NORMAL_IF_PASSED == true) {
-				exitType = 'FINISH';
-			}
-			// TODO:
-			if (!me.isOverrodeTime) {
-				dtmEnd = new Date();
-				AccumulateTime();
-				me.SaveTime(intAccumulatedMS);
-			}
-			*/
-			me.isLoaded = false;
+			var result = me._finish(exitType, me.isStatusSet)
+			me._initialized = false;
+			return result;
 		}
 		return true;
 	},
 
+	IsLoaded: function() {
+		return this._initialized;
+	},
+
+	IsLmsPresent: function() {
+		return this._initialized;
+	},
+
 	Exit: function() {
-		return this.Suspend();
+		return this.ConcedeControl();
 	},
 
 
@@ -349,6 +394,25 @@ Ext.define('Player.controller.SCORMMixin', {
 		me._api = API;
 
 		return API;
+	},
+
+	searchForParentRoot: function() {
+		var contentRoot = null,
+			win = window,
+			i = 0;
+		if (win.scormdriver_content) {
+			contentRoot = win;
+			return contentRoot;
+		}
+		while (contentRoot == null && win != window.top && (i++ < 100)) {
+			if (win.scormdriver_content) {
+				contentRoot = win;
+				return contentRoot;
+			} else {
+				win = win.parent;
+			}
+		}
+		return null;
 	},
 
 	searchUp: function(win) {
@@ -395,30 +459,12 @@ Ext.define('Player.controller.SCORMMixin', {
 			if ( !! API) {
 				return API;
 			}
-			API = me.searchDown(wnd.frames[i]);
+			API = me.searchDown(node.frames[i]);
 			if ( !! API) {
 				return API;
 			}
 		};
 		return API;
-	},
-	searchForParentRoot: function() {
-		var contentRoot = null;
-		var wnd = window;
-		var i = 0;
-		if (wnd.scormdriver_content) {
-			contentRoot = wnd;
-			return contentRoot;
-		}
-		while (contentRoot == null && wnd != window.top && (i++ < 100)) {
-			if (wnd.scormdriver_content) {
-				contentRoot = wnd;
-				return contentRoot;
-			} else {
-				wnd = wnd.parent;
-			}
-		}
-		return null;
 	},
 	ErrorHandler: function() {
 		var error = {
@@ -445,5 +491,41 @@ Ext.define('Player.controller.SCORMMixin', {
 		}
 
 		return error;
+	},
+	_zeroPad: function(intNum, intNumDigits) {
+		var strTemp,
+			intLen,
+			decimalToPad,
+			i,
+			isNeg = false;
+		strTemp = new String(intNum);
+		if (strTemp.indexOf('-') != -1) {
+			isNeg = true;
+			strTemp = strTemp.substr(1, strTemp.length);
+		}
+		if (strTemp.indexOf('.') != -1) {
+			strTemp.replace('.', '');
+			decimalToPad = strTemp.substr(strTemp.indexOf('.') + 1, strTemp.length);
+			strTemp = strTemp.substr(0, strTemp.indexOf('.'));
+		}
+		intLen = strTemp.length;
+		if (intLen > intNumDigits) {
+			strTemp = strTemp.substr(0, intNumDigits);
+		} else {
+			for (i = intLen; i < intNumDigits; i++) {
+				strTemp = "0" + strTemp;
+			}
+		}
+		if (isNeg == true) {
+			strTemp = '-' + strTemp;
+		}
+		if (decimalToPad != null && decimalToPad != '') {
+			if (decimalToPad.length == 1) {
+				strTemp += ':' + decimalToPad + '0';
+			} else {
+				strTemp += ':' + decimalToPad;
+			}
+		}
+		return strTemp;
 	}
 });

@@ -1,3 +1,4 @@
+// Deprecated
 Ext.define('Player.store.Quizes', {
   extend: 'Ext.data.Store',
   alias: 'store.quizes',

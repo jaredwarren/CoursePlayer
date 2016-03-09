@@ -22,12 +22,8 @@ Ext.define('Player.controller.LMSController', {
 
     switch (tracking) {
       case 'LOCAL':
-        me.self.mixin('LocalMixin', Player.controller.AICCMixin);
-        break;
       case 'COOKIE':
-        me.ScormStore = Ext.getStore('SCORM');
-        SCORM = me;
-        alert('TODO: same as local??????');
+        me.self.mixin('LocalMixin', Player.controller.LocalMixin);
         break;
       case 'AICC':
         me.self.mixin('AICCMixin', Player.controller.AICCMixin);

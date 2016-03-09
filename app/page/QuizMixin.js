@@ -292,7 +292,7 @@ Ext.define('Player.page.QuizMixin', {
 
       // SCORM Recording
       if (me.getReportScore()) {
-        SCORM.SetScore(quizRecord.intScore, me.intMaxScore, me.intMinScore);
+        SCORM.SetScore(quizRecord.intScore, me.maxscore, me.minscore);
       }
 
       switch (me.getRecordStatus()) {
@@ -360,13 +360,14 @@ Ext.define('Player.page.QuizMixin', {
           var scormCorrectResponses = Ext.Array.map(questionRecord.correctResponse, function(response, index, items) {
             return SCORM.CreateResponseIdentifier(response.Short, response.Long);
           });
-          SCORM.RecordMultipleChoiceInteraction(questionRecord.strID, scormResponses, questionRecord.blnCorrect, scormCorrectResponses, questionRecord.strDescription.replace(/(<([^>]+)>)/ig, ""), questionRecord.intWeighting, questionRecord.intLatency, questionRecord.strLearningObjectiveID);
+          SCORM.RecordMultipleChoiceInteraction(questionRecord.strID, scormResponses, questionRecord.blnCorrect, scormCorrectResponses, questionRecord.strDescription.replace(/(<([^>]+)>)/ig, ""), questionRecord.intWeighting, questionRecord.intLatency, questionRecord.strLearningObjectiveID, questionRecord.startTime);
           break;
         case 'TF':
-          SCORM.RecordTrueFalseInteraction(questionRecord.strID, questionRecord.response, questionRecord.blnCorrect, questionRecord.correctResponse, questionRecord.strDescription.replace(/(<([^>]+)>)/ig, ""), questionRecord.intWeighting, questionRecord.intLatency, questionRecord.strLearningObjectiveID);
+          SCORM.RecordTrueFalseInteraction(questionRecord.strID, questionRecord.response, questionRecord.blnCorrect, questionRecord.correctResponse, questionRecord.strDescription.replace(/(<([^>]+)>)/ig, ""), questionRecord.intWeighting, questionRecord.intLatency, questionRecord.strLearningObjectiveID, questionRecord.startTime);
+          break;
         case 'FB':
         case 'ESSAY':
-          SCORM.RecordFillInInteraction(questionRecord.strID, questionRecord.response, questionRecord.blnCorrect, questionRecord.correctResponse, questionRecord.strDescription.replace(/(<([^>]+)>)/ig, ""), questionRecord.intWeighting, questionRecord.intLatency, questionRecord.strLearningObjectiveID);
+          SCORM.RecordFillInInteraction(questionRecord.strID, questionRecord.response, questionRecord.blnCorrect, questionRecord.correctResponse, questionRecord.strDescription.replace(/(<([^>]+)>)/ig, ""), questionRecord.intWeighting, questionRecord.intLatency, questionRecord.strLearningObjectiveID, questionRecord.startTime);
           break;
         default:
           console.warn("Unsupported qtype:", question);

@@ -34,13 +34,9 @@ Ext.define('Player.page.questions.FB', {
     for (var i = 0, ln = allResponses.length; i < ln; i++) {
       var tempResponse = allResponses[i];
       if (tempResponse.correct && !! tempResponse['#text']) {
-        correctResponses.push({
-          Short: tempResponse['#text']+'',
-          Long: tempResponse['#text']+''
-        });
+        correctResponses.push(tempResponse['#text'] + '');
       }
     };
-
     cfg.questionRecord = {};
     cfg.questionRecord.correctResponse = correctResponses;
 
@@ -87,6 +83,7 @@ Ext.define('Player.page.questions.FB', {
     if (!caseSensitive) {
       guessString = guessString.toLowerCase();
     }
+    me.getQuestionRecord().response = guessString;
     if (otherRespCorrect) {
       correct = true;
     }
@@ -94,7 +91,7 @@ Ext.define('Player.page.questions.FB', {
     // there's got to be a better ay to do this...
     for (var i = responses.length - 1; i >= 0; i--) {
       var response = responses[i],
-        answerString = response.Long;
+        answerString = response;
       if (!caseSensitive) {
         answerString = answerString.toLowerCase();
       }

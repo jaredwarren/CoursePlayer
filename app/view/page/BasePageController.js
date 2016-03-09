@@ -62,12 +62,14 @@ Ext.define('Player.view.page.BasePageController', {
 
     // scorm report
     if (st.isTopicComplete(st.root)) {
+      console.log("All Done...");
       Player.settings.set('complete', true);
       Player.app.fireEvent('pauseCourse');
       var completion = Player.settings.get('completion');
+      console.log("completion:", completion);
       switch (completion) {
         case 'completed':
-          SCORM.SetCompleted();
+          SCORM.SetReachedEnd();
           break;
         case 'incomplete':
           SCORM.ResetStatus();
@@ -340,11 +342,11 @@ Ext.define('Player.view.page.BasePageController', {
           carousel.insertAfter(nextPage, currentPage);
         }
       } else {
-        console.log('addNextPage => %cright', 'color:#FF0000');
+        //console.log('addNextPage => %cright', 'color:#FF0000');
         //carousel.setLocked('right');
       }
     } else {
-      console.log('addNextPage => %cright', 'color:#FF0000');
+      //console.log('addNextPage => %cright', 'color:#FF0000');
       //carousel.setLocked('right');
     }
     return nextPage;
